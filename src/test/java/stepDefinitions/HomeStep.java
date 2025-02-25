@@ -13,19 +13,19 @@ public class HomeStep
 {
 	HomePage hp=new HomePage(DriverFactory.getDriver());
 	//WebDriver driver=new ChromeDriver();
-	@Given("Admin is on login Page")
-	public void admin_is_on_login_page() 
-	{
-		hp.landOnloginpage();   
-	    
-	}
+//	@Given("Admin is on login Page")
+//	public void admin_is_on_login_page() 
+//	{
+//		hp.landOnloginpage();   
+//	    
+//	}
 
-	@When("Admin enter valid data in all field and clicks login button")
-	public void admin_enter_valid_data_in_all_field_and_clicks_login_button() 
-	{
-  hp.login();
-	      
-	}
+//	@When("Admin enter valid data in all field and clicks login button")
+//	public void admin_enter_valid_data_in_all_field_and_clicks_login_button() 
+//	{
+//  hp.login();
+//	      
+//	}
 
 	@Then("Admin should see LMS -Learning management system as title")
 	public void admin_should_see_lms_learning_management_system_as_title() 
