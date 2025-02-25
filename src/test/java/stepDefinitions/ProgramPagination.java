@@ -18,31 +18,7 @@ public class ProgramPagination {
 	
 	private int rowcount;
 			
-//	@Given("Admin is logged into application")
-//	public void admin_is_logged_into_application() {
-//		
-//		logout.login();
-//		loginpage.selectrole();
-//		loginpage.clicklogin();
-//	  
-//	}
 
-//	@When("Admin click program button")
-//	public void admin_click_program_button() throws InterruptedException {
-//	    
-//		pagination.clickProgram();
-//		
-//	}
-
-//
-//	@Given("Admin is on Program page")
-//	public void admin_is_on_program_page() {
-//		
-//
-//		String title = loginpage.getpagetitle();
-//		Assert.assertEquals(title,"LMS");
-//	   
-//	}
 
 	@When("Admin clicks Next page link on the program table")
 	public void admin_clicks_next_page_link_on_the_program_table() {
