@@ -142,4 +142,45 @@
    [INFO ]2025-02-2423:23:05.247[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to save the program details =====
    [INFO ]2025-02-2423:23:11.246[main]utilitities.LoggerLoad1)-Scenario passed: Verify close window with "X" =====
 
+   [INFO ]2025-02-2512:43:14.738[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 2nd Program =====
+   [INFO ]2025-02-2512:43:14.739[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate navigation bar order 5th logout =====
+   [INFO ]2025-02-2512:43:21.867[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate LMS title has correct spelling and space =====
+   [INFO ]2025-02-2512:43:22.517[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title =====
+   [INFO ]2025-02-2512:43:27.832[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar text =====
+   [INFO ]2025-02-2512:43:27.972[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 1st home =====
+   [INFO ]2025-02-2512:43:28.637[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 3rd batch =====
+   [INFO ]2025-02-2512:43:29.927[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title alignment =====
+   [INFO ]2025-02-2512:43:35.509[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 4th class =====
+   [INFO ]2025-02-2512:43:37.138[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: verify pie-chart presence =====
+   [INFO ]2025-02-2512:43:38.504[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate alignment for navigation bar =====
+   [INFO ]2025-02-2512:43:39.763[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify user details =====
+   [INFO ]2025-02-2512:43:46.102[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify bar chart =====
+   [INFO ]2025-02-2512:43:50.673[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify staff count =====
+   [INFO ]2025-02-2512:43:55.304[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify user count =====
+   [INFO ]2025-02-2512:43:56.374[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: verify program count =====
+   [INFO ]2025-02-2512:43:57.955[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify batch count =====
+   [INFO ]2025-02-2512:44:01.309[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify staff data page split =====
+   [INFO ]2025-02-2512:44:13.327[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: verify first page icon disabled =====
+   [INFO ]2025-02-2512:44:14.569[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: verify previous page icon disable =====
+   [INFO ]2025-02-2512:52:48.716[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title alignment =====
+   [INFO ]2025-02-2512:52:48.714[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 3rd batch =====
+   [INFO ]2025-02-2512:52:48.785[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate alignment for navigation bar =====
+   [INFO ]2025-02-2512:52:50.000[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar text =====
+   [INFO ]2025-02-2512:52:56.488[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate LMS title has correct spelling and space =====
+   [INFO ]2025-02-2512:52:58.042[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 1st home =====
+   [INFO ]2025-02-2512:52:59.124[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate navigation bar order 5th logout =====
+   [INFO ]2025-02-2512:53:01.013[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 2nd Program =====
+   [INFO ]2025-02-2512:53:07.395[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify pie-chart presence =====
+   [INFO ]2025-02-2512:53:09.655[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 4th class =====
+   [INFO ]2025-02-2512:53:13.165[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title =====
+   [INFO ]2025-02-2512:53:18.333[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify user details =====
+   [INFO ]2025-02-2512:53:27.367[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: verify program count =====
+   [INFO ]2025-02-2512:53:27.942[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify bar chart =====
+   [INFO ]2025-02-2512:53:30.586[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify user count =====
+   [INFO ]2025-02-2512:53:32.714[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify staff count =====
+   [INFO ]2025-02-2512:53:34.371[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: verify previous page icon disable =====
+   [INFO ]2025-02-2512:53:35.069[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify staff data page split =====
+   [INFO ]2025-02-2512:53:35.470[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: verify pagination icon =====
+   [INFO ]2025-02-2512:53:36.435[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify first page icon disabled =====
+   [INFO ]2025-02-2512:53:36.438[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify batch count =====
    
