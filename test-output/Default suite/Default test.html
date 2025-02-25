@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 24 22:13:36 CST 2025</td>
+<td>Started on:</td><td>Tue Feb 25 10:38:05 CST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7927 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18153 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,8 +76,27 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify logout function", "Logout functionality"</td>
-<td></td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to click Next page link", "Program Pagination"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [null]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.ProgramPagination.admin_should_see_the_pagination_has_next_active_link(ProgramPagination.java:60)
+	at ✽.Admin should see the Pagination has Next active link(file:///C:/SahanaNUMPYNINJASDET/workspace/NewTeam5BugDetectors/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace650307913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace650307913'><pre>java.lang.AssertionError: expected [true] but found [null]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.ProgramPagination.admin_should_see_the_pagination_has_next_active_link(ProgramPagination.java:60)
+	at ✽.Admin should see the Pagination has Next active link(file:///C:/SahanaNUMPYNINJASDET/workspace/NewTeam5BugDetectors/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:11)
+</pre></div></td>
 <td>7</td>
 <td>runner.TestRunner@20d7d6fb</td></tr>
 </table><p>

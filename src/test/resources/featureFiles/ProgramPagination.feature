@@ -2,7 +2,7 @@
  
 Background: Verify that Admin is able to navigate to Program page
  Given Admin is on home page after Login
- When Admin click program button 
+ 
 
  @testdocker
  Scenario: Verify Admin is able to click Next page link

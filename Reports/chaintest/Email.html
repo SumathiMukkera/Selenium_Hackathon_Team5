@@ -30,8 +30,8 @@
                 <table style="padding: 20px;">
                   <tr>
                     <td>
-                      <span class="bg-passed" style="margin-right:10px;padding:0px 5px;">PASSED</span>
-                      <span style="">Feb 24, 2025, 8:23:05 PM &middot; 14s</span>
+                      <span class="bg-failed" style="margin-right:10px;padding:0px 5px;">FAILED</span>
+                      <span style="">Feb 25, 2025, 10:38:05 AM &middot; 17s</span>
                     </td>
                   </tr>
                 </table>
@@ -56,11 +56,11 @@
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#79B530">Passed</p>
-	                <h1 style="font-size:34px;">1</h1>
+	                <h1 style="font-size:34px;">0</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e64b5d">Failed</p>
-	                <h1 style="font-size:34px;">0</h1>
+	                <h1 style="font-size:34px;">1</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e6e04c">Skipped</p>
@@ -95,11 +95,11 @@
                   </tr>
                   <tr style="height:10px;"></tr>
                   <tr>
-                    <td width="350">@logout</td>
+                    <td width="350">@testdocker</td>
                       <td width="23"></td>
-                      <td style="" width="60">1</td>
-                      <td class="padding" width="10"></td>
                       <td style="" width="60">0</td>
+                      <td class="padding" width="10"></td>
+                      <td style="" width="60">1</td>
                       <td class="padding" width="10"></td>
                       <td style="" width="60">0</td>
                   </tr>
@@ -115,6 +115,69 @@
     <table width="100%">
       <tr>
         <td align="center">
+          <table width="650">
+            <tr>
+              <td bgcolor="#FFF" style="padding:10px 20px;">
+                <table>
+                  <tr>
+                    <td width="650px" style="padding:10px;">
+                      <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
+                        Feature: Program Pagination
+                      <p style="font-size:12px;margin:0;">
+                        <span>Feb 25, 2025, 10:38:23 AM / 58ms</span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario: Verify Admin is able to click Next page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on home page after Login
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on Program page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When Admin clicks Next page link on the program table
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then Admin should see the Pagination has Next active link
+<pre>java.lang.AssertionError: expected [true] but found [null]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.ProgramPagination.admin_should_see_the_pagination_has_next_active_link(ProgramPagination.java:60)
+	at ✽.Admin should see the Pagination has Next active link(file:///C:/SahanaNUMPYNINJASDET/workspace/NewTeam5BugDetectors/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:11)
+</pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>

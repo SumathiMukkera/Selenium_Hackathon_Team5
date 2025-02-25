@@ -60,4 +60,46 @@
    [INFO ]2025-02-2423:23:00.973[main]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
    [INFO ]2025-02-2423:23:05.247[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to save the program details =====
    [INFO ]2025-02-2423:23:11.246[main]utilitities.LoggerLoad1)-Scenario passed: Verify close window with "X" =====
+   [INFO ]2025-02-2508:40:40.462[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate delete icon in each data rows =====
+   [INFO ]2025-02-2508:40:40.458[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate disabled "Delete Icon" under the header in the Batch Page =====
+   [INFO ]2025-02-2508:40:40.458[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate pagination in the Batch Page =====
+   [INFO ]2025-02-2508:40:40.458[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin Navigate to Batch page successfully =====
+   [INFO ]2025-02-2508:40:41.965[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: validate checkbox in each data rows =====
+   [INFO ]2025-02-2508:40:42.402[TestNG-PoolService-10]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2508:40:47.460[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate "Title" in Batch Page =====
+   [INFO ]2025-02-2508:40:49.436[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate edit icon in each data rows =====
+   [INFO ]2025-02-2508:40:56.005[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2508:40:56.747[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2508:40:57.862[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate "heading" in the Batch Page =====
+   [INFO ]2025-02-2508:40:57.978[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2508:41:07.553[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2508:41:17.651[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2508:41:19.614[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate "sort icon" next to all the datatable header =====
+   [INFO ]2025-02-2508:41:20.853[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate "Checkbox" in the Datatable header row =====
+   [INFO ]2025-02-2509:32:25.675[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
+   [ERROR]2025-02-2509:32:29.086[main]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Next page link
+   [INFO ]2025-02-2509:32:33.691[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Last page link =====
+   [ERROR]2025-02-2509:32:35.841[main]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Last page link
+   [INFO ]2025-02-2509:32:40.196[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [ERROR]2025-02-2509:32:41.558[main]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [INFO ]2025-02-2509:32:45.734[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click First page link =====
+   [INFO ]2025-02-2509:32:51.227[main]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are no records =====
+   [ERROR]2025-02-2509:33:02.096[main]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are no records
+   [INFO ]2025-02-2509:33:05.583[main]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are less than 5 records =====
+   [ERROR]2025-02-2509:33:16.562[main]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are less than 5 records
+   [INFO ]2025-02-2509:59:14.343[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [INFO ]2025-02-2509:59:49.217[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
+   [ERROR]2025-02-2509:59:51.386[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Next page link
+   [INFO ]2025-02-2510:07:25.567[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Last page link =====
+   [ERROR]2025-02-2510:07:26.478[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Last page link
+   [INFO ]2025-02-2510:08:32.881[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [ERROR]2025-02-2510:08:43.447[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [INFO ]2025-02-2510:11:17.351[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [ERROR]2025-02-2510:11:27.899[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [INFO ]2025-02-2510:15:14.266[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [ERROR]2025-02-2510:15:16.220[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [INFO ]2025-02-2510:17:09.038[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [ERROR]2025-02-2510:17:10.824[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [INFO ]2025-02-2510:38:20.303[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
+   [ERROR]2025-02-2510:38:22.800[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Next page link
    

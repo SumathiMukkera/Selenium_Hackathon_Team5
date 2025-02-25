@@ -9,10 +9,12 @@ import io.cucumber.java.en.When;
 import pageObjectRepository.LoginPage;
 import pageObjectRepository.LogoutPage;
 import pageObjectRepository.ProgramPaginationPage;
+import pageObjectRepository.ProgramValidation;
 
 public class ProgramPagination {
 	
 	ProgramPaginationPage pagination = new ProgramPaginationPage(DriverFactory.getDriver());
+	ProgramValidation ProgramPage = new ProgramValidation(DriverFactory.getDriver());
 	LogoutPage logout = new LogoutPage(DriverFactory.getDriver());
 	LoginPage loginpage = new LoginPage(DriverFactory.getDriver());
 	private int rowcount;
@@ -75,6 +77,7 @@ public class ProgramPagination {
 
 	@Given("Admin is on last page of Program page table")
 	public void admin_is_on_last_page_of_program_page_table() {
+		ProgramPage.program();
 		
 		pagination.goToLastPageUsingNextButton();
 			    

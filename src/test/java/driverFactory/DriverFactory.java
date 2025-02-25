@@ -16,6 +16,7 @@ public class DriverFactory {
 		}
 
 		try {
+			
 			switch (browser.toLowerCase()) {
 			case "chrome":
 				// ChromeOptions chromeOptions = new ChromeOptions();

@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Selenium-Hackathon-Team5</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 14s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-02-24 08:23:05 PM</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-02-24 08:23:19 PM</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 17s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-02-25 10:38:05 AM</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-02-25 10:38:23 AM</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -46,8 +46,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp1">1</span> Passed,
-                <span id="sf1">0</span> Failed,
+                <span id="sp1">0</span> Passed,
+                <span id="sf1">1</span> Failed,
                 <span id="ss1">0</span> Skipped
               </div>
             </div>
@@ -63,8 +63,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp2">1</span> Passed,
-                <span id="sf2">0</span> Failed,
+                <span id="sp2">0</span> Passed,
+                <span id="sf2">1</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -80,8 +80,8 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">4</span> Passed,
-                  <span id="sf3">0</span> Failed,
+                  <span id="sp3">3</span> Passed,
+                  <span id="sf3">1</span> Failed,
                   <span id="ss3">0</span> Skipped
                 </div>
               </div>
@@ -110,11 +110,11 @@
               </thead>
               <tbody>
                   <tr>
-                    <td><a href="#" class="secondary tag">@logout</a></td>
-                    <td>1</td>
+                    <td><a href="#" class="secondary tag">@testdocker</a></td>
                     <td>1</td>
                     <td>0</td>
-                    <td>2ms</td>
+                    <td>1</td>
+                    <td>16ms</td>
                   </tr>
               </tbody>
             </table>
@@ -138,37 +138,37 @@
         </div>
       </div>
     </div>
-      <div class="test-container passed">
+      <div class="test-container failed">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 passed">Feature: Logout functionality</h6>
+              <h6 class="mb-3 testname fs-6 failed">Feature: Program Pagination</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 16ms</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 58ms</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-02-24 08:23:19 PM</span>
+                  2025-02-25 10:38:23 AM</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-02-24 08:23:19 PM</span>
+                  2025-02-25 10:38:23 AM</span>
               </div>
                 <div class="my-2">
-                    <span class="badge rounded-pill text-bg-secondary">@logout</span>
+                    <span class="badge rounded-pill text-bg-secondary">@testdocker</span>
                 </div>
               
             </div>
             <div class="col-8">
-                <div class="card mb-3 result passed">
+                <div class="card mb-3 result failed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario: Verify logout function</span>
+                            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario: Verify Admin is able to click Next page link</span>
                       </div>
                       <div>
                           <span class="tag-list">
-                              <span class="badge rounded-pill text-bg-secondary">@logout</span>
+                              <span class="badge rounded-pill text-bg-secondary">@testdocker</span>
                           </span>
                           <span class="mx-1">&middot;</span>
-                        <span class="badge text-dark bg-light">2ms</span>
+                        <span class="badge text-dark bg-light">16ms</span>
                       </div>
                     </div>
                     
@@ -179,17 +179,32 @@
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given Admin is in home page</span>
+          <span class="ms-2">Given Admin is on Program page</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When Admin clicks on the logout in the menu bar</span>
+          <span class="ms-2">When Admin clicks Next page link on the program table</span>
         </div>
         <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then Admin should be redirected to login page</span>
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then Admin should see the Pagination has Next active link</span>
+            <pre class="py-2 mt-2">java.lang.AssertionError: expected [true] but found [null]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.ProgramPagination.admin_should_see_the_pagination_has_next_active_link(ProgramPagination.java:60)
+	at ✽.Admin should see the Pagination has Next active link(file:///C:/SahanaNUMPYNINJASDET/workspace/NewTeam5BugDetectors/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:11)
+</pre>
         </div>
   </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/102363a2-a7ac-41f8-9827-833589b97375.png" />
+                          </div>
+                      </div>
                   </div>
                 </div>
             </div>
@@ -200,22 +215,22 @@
   </div>
 
   <script>
-    const stats1Annotation = {'total': 1, 'passed': 1};
+    const stats1Annotation = {'total': 1, 'passed': 0};
     const stats1 = [
-      { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
-      { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+      { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
+      { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(221, 91, 96)' }
     ];
-      const stats2Annotation = {'total': 1, 'passed': 1};
+      const stats2Annotation = {'total': 1, 'passed': 0};
       const stats2 = [
-        { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(221, 91, 96)' }
       ];
-      const stats3Annotation = {'total': 4, 'passed': 4};
+      const stats3Annotation = {'total': 4, 'passed': 3};
       const stats3 = [
-        { result: 'Passed', count: 4, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 3, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(221, 91, 96)' }
       ];
      
@@ -235,7 +250,7 @@
               <tbody>
                   <tr>
                     <td>java.version</td>
-                    <td>17.0.12</td>
+                    <td>21.0.3</td>
                   </tr>
                   <tr>
                     <td>java.vm.name</td>
@@ -247,7 +262,7 @@
                   </tr>
                   <tr>
                     <td>java.class.version</td>
-                    <td>61.0</td>
+                    <td>65.0</td>
                   </tr>
                   <tr>
                     <td>java.runtime.name</td>
@@ -288,14 +303,6 @@
           <table class="table">
             <tbody>
                 <tr>
-                  <td>f</td>
-                  <td>Toggle failed tests</td>
-                </tr>
-                <tr>
-                  <td>p</td>
-                  <td>Toggle passed tests</td>
-                </tr>
-                <tr>
                   <td>s</td>
                   <td>Toggle skipped tests</td>
                 </tr>
@@ -306,6 +313,14 @@
                 <tr>
                   <td>esc</td>
                   <td>Reset all filters</td>
+                </tr>
+                <tr>
+                  <td>f</td>
+                  <td>Toggle failed tests</td>
+                </tr>
+                <tr>
+                  <td>p</td>
+                  <td>Toggle passed tests</td>
                 </tr>
             </tbody>
           </table>

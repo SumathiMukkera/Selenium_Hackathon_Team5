@@ -82,6 +82,7 @@ public class ProgramPaginationPage {
 	    } 
 	 
 	 public void goToLastPageUsingNextButton() {
+		 
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement next =   driver.findElement(Next);
 		    while (next.isEnabled()) {
