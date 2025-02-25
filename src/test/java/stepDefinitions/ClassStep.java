@@ -281,8 +281,8 @@ public class ClassStep {
 		classPage.adminOnLastPage();
 	}
 
-	@When("Admin clicks First page link")
-	public void admin_clicks_first_page_link() {
+	@When("Admin clicks First page link in the class manage page")
+	public void admin_clicks_first_page_link_in_the_class_manage_page() {
 		classPage.clickFirstPage();
 	}
 
