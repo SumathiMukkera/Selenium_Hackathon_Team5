@@ -9,11 +9,11 @@ Given Admin is on home page after Login
     When Admin clicks on Add New Program under the Program menu bar
     Then Admin should see pop up window for program details
 
-    #@add2
-    #Scenario: Verify sub menu displayed in program menu bar
-    #Given Admin is on Program page
-    #When Admin clicks Program on the navigation bar
-    #Then Admin should see program sub menu in menu bar as "Add New Program"
+    @add2
+    Scenario: Verify sub menu displayed in program menu bar
+    Given Admin is on Program page
+    When Admin clicks Program on the navigation bar
+    Then Admin should see program sub menu in menu bar as "Add New Program"
 
     @add3
     Scenario: Verify title of the pop up window
@@ -74,11 +74,12 @@ Given Admin is on home page after Login
     When Admin enter valid details for mandatory fields and Click on save button
     Then Admin gets message 'Successful Program Created Successfully'
    
-    #@add11
-    #Scenario: Verify added Program is created
-    #Given Admin is on Program page
-    #When Admin searches with newly created "Listeners"
-    #Then Records of the newly created "Listeners" is displayed and match the data entered
+  
+    @add11
+    Scenario: Verify added Program is created
+    Given Admin is on Program details form
+    When Admin searches with newly created programName
+    Then Records of the newly created programname is displayed and match the data entered
     
     @add12
     Scenario: Verify close window with "X"

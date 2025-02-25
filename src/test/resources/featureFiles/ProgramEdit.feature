@@ -55,14 +55,11 @@ Given Admin is on home page after Login
     Examples:
     | Sheetname    | RowNumber |
     | program      |  1        |
-    #@Edit9
-    #Scenario Outline: Verify edit Status
-    #Given Admin is on Program page
-    #When Admin can change the status of the program and click on save button "<Sheetname>" and <RowNumber>
-    #Then Status updated can be viewed by the Admin
-    #Examples:
-    #| Sheetname    | RowNumber |
-    #| program      |  1        |
+    @Edit9
+    Scenario Outline: Verify edit Status
+    Given Admin is on Program page
+    When Admin can change the status of the program and click on save button
+    Then Status updated can be viewed by the Admin
     
     
     
