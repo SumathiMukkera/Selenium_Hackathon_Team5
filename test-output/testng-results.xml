@@ -1,43 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-24T20:39:13 CST" name="Default suite" finished-at="2025-02-24T20:39:18 CST" duration-ms="4840">
+  <suite started-at="2025-02-25T11:16:25 CST" name="Default suite" finished-at="2025-02-25T11:16:39 CST" duration-ms="13937">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-02-24T20:39:13 CST" name="Default test" finished-at="2025-02-24T20:39:18 CST" duration-ms="4840">
+    <test started-at="2025-02-25T11:16:25 CST" name="Default test" finished-at="2025-02-25T11:16:39 CST" duration-ms="13937">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-24T20:39:13 CST" name="setUpClass" finished-at="2025-02-24T20:39:13 CST" duration-ms="533" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:16:25 CST" name="setUpClass" finished-at="2025-02-25T11:16:34 CST" duration-ms="8934" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@da4cf09]]>
+                <![CDATA[org.testng.TestRunner@2ae62bb6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-24T20:39:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-24T20:39:18 CST" duration-ms="4220" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:16:34 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-25T11:16:39 CST" duration-ms="4875" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify logout function"]]>
+                <![CDATA["Verify pagination when there are less than 5 records"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Logout functionality"]]>
+                <![CDATA["Program Pagination"]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:644)
+at stepDefinitions.ProgramPagination.admin_should_see_pagination_icons_disabled(ProgramPagination.java:149)
+at ✽.Admin should see pagination icons disabled(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-24T20:39:18 CST" name="tearDownClass" finished-at="2025-02-24T20:39:18 CST" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:16:39 CST" name="tearDownClass" finished-at="2025-02-25T11:16:39 CST" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
