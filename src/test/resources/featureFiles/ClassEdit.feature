@@ -1,6 +1,6 @@
 Feature: Edit new Class
 Background: Admin is on the Manage Class page after login
- Given Admin is on home page after login
+ Given Admin is on home page after Login
  When Admin clicks the Class Navigation bar in the Header     
  Given Admin is on the Manage Class page
   

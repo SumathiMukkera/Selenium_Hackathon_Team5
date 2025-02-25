@@ -1,6 +1,6 @@
 Feature: Navigation Validation from Manage Class to other Pages
 Background: Admin is on home page after Login and clicks Class on the navigation bar
- Given Admin is on home page after login
+ Given Admin is on home page after Login
  When Admin clicks the Class Navigation bar in the Header     
  Given Admin is on the Manage Class page  
  

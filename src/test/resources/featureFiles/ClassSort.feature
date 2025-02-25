@@ -1,6 +1,6 @@
 Feature: Sort Class Details
 Background: Admin is on the Manage class page
- Given Admin is on home page after login
+ Given Admin is on home page after Login
  When Admin clicks the Class Navigation bar in the Header     
  Given Admin should land on the Manage class page
   
@@ -13,8 +13,8 @@ Background: Admin is on the Manage class page
     Then Admin should see Class details are sorted by Class Topic
 
     Scenario: Sort Class by Class Description
-    When Admin clicks on the Class description sort icon
-    Then Admin should see Class details are sorted by Class Description
+    When Admin clicks on the Class description sort icon in class manage page
+    Then Admin should see Class details are sorted by Class Description in class manage page
 
     Scenario: Sort Class by Status
     When Admin clicks on the Status sort icon

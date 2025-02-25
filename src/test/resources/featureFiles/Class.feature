@@ -1,6 +1,6 @@
 Feature: Class functionality
 Background: Admin Is on the home page after login
- Given Admin is on home page after login
+ Given Admin is on home page after Login
  When Admin clicks the Class Navigation bar in the Header
 
     Scenario: Validating the class manage page

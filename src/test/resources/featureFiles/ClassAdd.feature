@@ -1,6 +1,6 @@
 Feature: Add New Class
 Background: Admin Is on the Manage class page after login
- Given Admin is on home page after login
+ Given Admin is on home page after Login
  When Admin clicks the Class Navigation bar in the Header
  And Admin clicks a add new class under the class menu bar 
  Given Admin is on the Class Popup window
@@ -35,7 +35,7 @@ Background: Admin Is on the Manage class page after login
 
     Scenario: Empty form submission
     Given Admin is on the Class Popup window
-    When Admin clicks on save button without entering data
+    When Admin clicks on save button without entering data in the class pop up window
     Then class will not be created and Admin gets error message
 
     Scenario: Validate Cancel/Close(X) icon on class Details form
@@ -45,5 +45,5 @@ Background: Admin Is on the Manage class page after login
 
     Scenario: Validate Save button on class Details form
     Given Admin is on the Class Popup window
-    When Admin clicks save button
+    When Admin clicks save button in the class pop up window
     Then Admin can see the class details popup closed and adding new class

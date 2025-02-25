@@ -1,6 +1,6 @@
 Feature: Pagination
 Background: Admin is on the Manage Class page after login
- Given Admin is on home page after login
+ Given Admin is on home page after Login
  When Admin clicks the Class Navigation bar in the Header     
  Given Admin is on the Manage Class page  
  
@@ -9,15 +9,15 @@ Background: Admin is on the Manage Class page after login
     Then Admin should see the next page record on the table with Pagination has next active link enabled
 
     Scenario: Verify Last page link(>>)
-    When Admin clicks Last page link
-    Then Admin should see the last page record on the table with Next page link are disabled
+    When Admin clicks Last page link in the class manage page
+    Then Admin should see the last page record on the table with Next page link are disabled in the class manage page
 
     Scenario: Verify First page link(<)
     Given Admin is on last page of class table
-    When Admin clicks First page link
+    When Admin clicks First page link in the class manage page
     Then Admin should see the previous page record on the table with pagination has previous page link enabled
 
     Scenario: Verify Start page link(<<)
     Given Admin is on Previous class page
     When Admin clicks Start page link
-    Then Admin should see the very first page record on the table with Previous page link are disabled
+    Then Admin should see the very first page record on the table with Previous page link are disabled in the class manage page
