@@ -183,4 +183,826 @@
    [INFO ]2025-02-2512:53:35.470[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: verify pagination icon =====
    [INFO ]2025-02-2512:53:36.435[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify first page icon disabled =====
    [INFO ]2025-02-2512:53:36.438[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify batch count =====
+   [INFO ]2025-02-2513:18:20.242[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate alignment for navigation bar =====
+   [INFO ]2025-02-2513:18:20.242[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title alignment =====
+   [INFO ]2025-02-2513:18:20.612[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar text =====
+   [INFO ]2025-02-2513:18:21.114[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 1st home =====
+   [INFO ]2025-02-2513:18:21.815[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 4th class =====
+   [INFO ]2025-02-2513:18:22.798[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate LMS title has correct spelling and space =====
+   [INFO ]2025-02-2513:18:23.796[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 2nd Program =====
+   [INFO ]2025-02-2513:18:24.581[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 3rd batch =====
+   [INFO ]2025-02-2513:18:24.659[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate navigation bar order 5th logout =====
+   [INFO ]2025-02-2513:18:24.821[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title =====
+   [INFO ]2025-02-2513:18:30.645[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify user count =====
+   [INFO ]2025-02-2513:18:30.751[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify staff data page split =====
+   [INFO ]2025-02-2513:18:30.867[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify user details =====
+   [INFO ]2025-02-2513:18:31.006[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify staff count =====
+   [INFO ]2025-02-2513:18:31.014[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: verify pie-chart presence =====
+   [INFO ]2025-02-2513:18:31.026[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify bar chart =====
+   [INFO ]2025-02-2513:18:31.169[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify batch count =====
+   [INFO ]2025-02-2513:18:31.548[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify program count =====
+   [INFO ]2025-02-2513:18:33.539[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: verify pagination icon =====
+   [INFO ]2025-02-2513:18:38.119[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: verify first page icon disabled =====
+   [INFO ]2025-02-2513:18:38.598[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: verify previous page icon disable =====
+   [INFO ]2025-02-2513:20:27.455[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate checkbox in each data rows =====
+   [INFO ]2025-02-2513:20:27.455[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate pagination in the Batch Page =====
+   [INFO ]2025-02-2513:20:27.455[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:20:27.710[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate disabled "Delete Icon" under the header in the Batch Page =====
+   [INFO ]2025-02-2513:20:27.940[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin Navigate to Batch page successfully =====
+   [INFO ]2025-02-2513:20:28.212[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate delete icon in each data rows =====
+   [INFO ]2025-02-2513:20:28.291[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:20:28.322[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate edit icon in each data rows =====
+   [INFO ]2025-02-2513:20:29.465[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate "heading" in the Batch Page =====
+   [INFO ]2025-02-2513:20:29.963[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate "Title" in Batch Page =====
+   [INFO ]2025-02-2513:32:07.741[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate delete icon in each data rows =====
+   [INFO ]2025-02-2513:32:08.754[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate edit icon in each data rows =====
+   [INFO ]2025-02-2513:32:08.887[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:32:09.555[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate "heading" in the Batch Page =====
+   [INFO ]2025-02-2513:32:09.876[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:32:10.009[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate "Title" in Batch Page =====
+   [INFO ]2025-02-2513:32:10.203[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate checkbox in each data rows =====
+   [INFO ]2025-02-2513:32:11.201[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate disabled "Delete Icon" under the header in the Batch Page =====
+   [INFO ]2025-02-2513:32:12.759[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate pagination in the Batch Page =====
+   [INFO ]2025-02-2513:32:14.761[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:32:15.442[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin Navigate to Batch page successfully =====
+   [INFO ]2025-02-2513:32:15.876[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:32:17.900[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate "sort icon" next to all the datatable header =====
+   [INFO ]2025-02-2513:32:19.126[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate "Checkbox" in the Datatable header row =====
+   [INFO ]2025-02-2513:32:19.360[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify sub menu displayed in batch menu bar =====
+   [INFO ]2025-02-2513:32:19.641[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate Admin able to click on the Add new Batch Option =====
+   [INFO ]2025-02-2513:32:19.726[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:32:20.185[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2513:32:22.728[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2513:32:23.928[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2513:32:24.629[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2513:32:25.094[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2513:32:28.098[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate batch name prefix box is not editable =====
+   [INFO ]2025-02-2513:32:28.333[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate input data only for mandatory fields =====
+   [INFO ]2025-02-2513:32:29.197[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate batch name suffix box should accept only numbers =====
+   [INFO ]2025-02-2513:32:29.782[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate batchname prefix selected program name =====
+   [INFO ]2025-02-2513:32:30.387[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate input data missing for mandatory fields =====
+   [INFO ]2025-02-2513:32:30.422[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2513:32:33.270[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: validate save button in Batch details pop up =====
+   [INFO ]2025-02-2513:32:33.471[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: validate close icon on the batch details pop up =====
+   [INFO ]2025-02-2513:32:33.662[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: validate delete Icon on any row =====
+   [INFO ]2025-02-2513:32:35.181[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate cancel button in Batch details pop up =====
+   [INFO ]2025-02-2513:32:38.735[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate close Icon on the alert box =====
+   [INFO ]2025-02-2513:32:39.616[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate Edit icon feature in any row =====
+   [INFO ]2025-02-2513:32:39.859[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate program name value is disabled to edit =====
+   [INFO ]2025-02-2513:32:39.931[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: validate no button on the confirm alert box =====
+   [INFO ]2025-02-2513:32:40.904[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate yes button on the confirm alert box =====
+   [INFO ]2025-02-2513:32:43.405[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate batch name value is disabled to edit =====
+   [ERROR]2025-02-2513:32:47.309[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Validate input data only for mandatory fields
+   [INFO ]2025-02-2513:32:48.769[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate editing description and No. of classes fields with invalid data in the pop up =====
+   [INFO ]2025-02-2513:32:48.787[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: validate save button in Batch details pop up =====
+   [INFO ]2025-02-2513:32:49.234[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: validate cancel button in Batch details pop up =====
+   [INFO ]2025-02-2513:32:51.074[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate logout option in the header is visible and enabled from the batch page =====
+   [ERROR]2025-02-2513:32:52.603[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: validate save button in Batch details pop up
+   [INFO ]2025-02-2513:32:55.024[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate next page link =====
+   [INFO ]2025-02-2513:32:55.200[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate single row delete with checkbox =====
+   [INFO ]2025-02-2513:32:57.687[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate multiple row delete with checkbox =====
+   [INFO ]2025-02-2513:32:59.242[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: validate the first page link =====
+   [INFO ]2025-02-2513:33:00.391[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validating the class manage page =====
+   [INFO ]2025-02-2513:33:00.406[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate the previous page link =====
+   [INFO ]2025-02-2513:33:00.797[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate last page link =====
+   [INFO ]2025-02-2513:33:00.801[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: validate search box functionality =====
+   [INFO ]2025-02-2513:33:03.470[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validating the Header in the Manage class page =====
+   [INFO ]2025-02-2513:33:06.330[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validating the text and pagination icon in the classpage =====
+   [ERROR]2025-02-2513:33:06.459[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate single row delete with checkbox
+   [INFO ]2025-02-2513:33:07.586[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate the sort icon of all the field in datatable =====
+   [INFO ]2025-02-2513:33:08.962[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validating Search bar in class page =====
+   [INFO ]2025-02-2513:33:09.302[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validating the Delete button under the Manage class =====
+   [INFO ]2025-02-2513:33:11.335[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validating the data table headers in the class page =====
+   [INFO ]2025-02-2513:33:12.589[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate the total no of classes in manage class page =====
+   [INFO ]2025-02-2513:33:14.041[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate Class Details Popup window =====
+   [INFO ]2025-02-2513:33:14.814[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate input fields and their text boxes in Class details form =====
+   [INFO ]2025-02-2513:33:15.737[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Check no of classes value added when selecting class dates =====
+   [ERROR]2025-02-2513:33:16.235[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple row delete with checkbox
+   [INFO ]2025-02-2513:33:17.108[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Check if class is created when only mandatory fields are entered with valid data =====
+   [INFO ]2025-02-2513:33:19.405[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Check weekend dates are disabled in calendar =====
+   [INFO ]2025-02-2513:33:24.026[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate row level edit icon =====
+   [INFO ]2025-02-2513:33:24.542[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: check if class is created when invalid data is entered in all of the fields =====
+   [INFO ]2025-02-2513:33:25.288[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate Save button on class Details form =====
+   [INFO ]2025-02-2513:33:25.762[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate Cancel/Close(X) icon on class Details form =====
+   [INFO ]2025-02-2513:33:26.016[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Check if class is created when only optional fields are entered with valid data =====
+   [INFO ]2025-02-2513:33:26.354[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Empty form submission =====
+   [INFO ]2025-02-2513:33:30.152[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Check disabled batch name =====
+   [INFO ]2025-02-2513:33:35.404[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Check disabled class topic =====
+   [ERROR]2025-02-2513:33:35.672[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Validate row level edit icon
+   [ERROR]2025-02-2513:33:36.130[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: check if class is created when invalid data is entered in all of the fields
+   [ERROR]2025-02-2513:33:38.526[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Validate Cancel/Close(X) icon on class Details form
+   [INFO ]2025-02-2513:33:40.744[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Check if the fields are updated with valid data =====
+   [ERROR]2025-02-2513:33:41.871[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Check disabled batch name
+   [INFO ]2025-02-2513:33:42.560[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Check if the mandatory fields are updated with valid data =====
+   [INFO ]2025-02-2513:33:43.119[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Check if the optional fields are updated with valid data =====
+   [INFO ]2025-02-2513:33:43.676[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Check if the fields are updated with invalid values =====
+   [INFO ]2025-02-2513:33:46.669[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate Cancel button on Edit popup =====
+   [INFO ]2025-02-2513:33:47.073[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate invalid values in the text fields =====
+   [INFO ]2025-02-2513:33:47.619[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Class link on navigation bar =====
+   [ERROR]2025-02-2513:33:47.724[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Check disabled class topic
+   [INFO ]2025-02-2513:33:49.390[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Class link to other page on navigation bar =====
+   [ERROR]2025-02-2513:33:54.193[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Validate Save button on class Details form
+   [ERROR]2025-02-2513:33:56.756[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Check if the fields are updated with valid data
+   [INFO ]2025-02-2513:33:57.298[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Logout link on navigation bar =====
+   [ERROR]2025-02-2513:33:58.465[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Check if the mandatory fields are updated with valid data
+   [INFO ]2025-02-2513:33:58.742[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate Common Delete button enabled after clicking on any checkbox =====
+   [ERROR]2025-02-2513:33:59.247[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Check if the optional fields are updated with valid data
+   [ERROR]2025-02-2513:33:59.366[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Check if the fields are updated with invalid values
+   [ERROR]2025-02-2513:34:00.260[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate Cancel button on Edit popup
+   [INFO ]2025-02-2513:34:00.919[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Single checkbox =====
+   [ERROR]2025-02-2513:34:01.646[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Validate invalid values in the text fields
+   [INFO ]2025-02-2513:34:02.375[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Single check box =====
+   [INFO ]2025-02-2513:34:07.618[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Last page link(>>) =====
+   [INFO ]2025-02-2513:34:08.503[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Multiple check boxes =====
+   [INFO ]2025-02-2513:34:08.784[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Next page link(>) =====
+   [INFO ]2025-02-2513:34:09.137[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify First page link(<) =====
+   [INFO ]2025-02-2513:34:09.722[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Multiple check boxes =====
+   [INFO ]2025-02-2513:34:11.019[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Start page link(<<) =====
+   [INFO ]2025-02-2513:34:12.155[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Search class by Batch Name =====
+   [ERROR]2025-02-2513:34:12.229[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Validate Common Delete button enabled after clicking on any checkbox
+   [ERROR]2025-02-2513:34:14.653[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify First page link(<)
+   [ERROR]2025-02-2513:34:14.849[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Single checkbox
+   [ERROR]2025-02-2513:34:15.438[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Verify Next page link(>)
+   [ERROR]2025-02-2513:34:16.729[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Verify Start page link(<<)
+   [ERROR]2025-02-2513:34:17.908[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Single check box
+   [INFO ]2025-02-2513:34:19.397[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Search class by Class topic =====
+   [INFO ]2025-02-2513:34:20.978[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class topic =====
+   [INFO ]2025-02-2513:34:21.333[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Batch name =====
+   [ERROR]2025-02-2513:34:23.345[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Multiple check boxes
+   [ERROR]2025-02-2513:34:24.822[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Multiple check boxes
+   [INFO ]2025-02-2513:34:25.087[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class Description =====
+   [INFO ]2025-02-2513:34:26.091[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Status =====
+   [INFO ]2025-02-2513:34:26.311[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Search class by Staff Name =====
+   [ERROR]2025-02-2513:34:27.348[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Search class by Batch Name
+   [INFO ]2025-02-2513:34:29.697[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Sort Class by staff name =====
+   [INFO ]2025-02-2513:34:29.732[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class date =====
+   [ERROR]2025-02-2513:34:30.721[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Search class by Staff Name
+   [INFO ]2025-02-2513:34:31.678[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate row level delete icon =====
+   [ERROR]2025-02-2513:34:32.531[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Search class by Class topic
+   [INFO ]2025-02-2513:34:37.818[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Click Yes on deletion window =====
+   [INFO ]2025-02-2513:34:37.822[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate Close(X) icon on Confirm Deletion alert =====
+   [INFO ]2025-02-2513:34:38.983[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Click No on deletion window =====
+   [ERROR]2025-02-2513:34:43.756[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Validate row level delete icon
+   [INFO ]2025-02-2513:34:44.573[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title =====
+   [INFO ]2025-02-2513:34:45.241[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [INFO ]2025-02-2513:34:46.051[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title alignment =====
+   [INFO ]2025-02-2513:34:47.694[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate LMS title has correct spelling and space =====
+   [ERROR]2025-02-2513:34:50.250[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Validate Close(X) icon on Confirm Deletion alert
+   [ERROR]2025-02-2513:34:51.023[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Click Yes on deletion window
+   [INFO ]2025-02-2513:34:51.222[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate alignment for navigation bar =====
+   [INFO ]2025-02-2513:34:51.230[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar text =====
+   [ERROR]2025-02-2513:34:52.342[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Click No on deletion window
+   [INFO ]2025-02-2513:34:53.691[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 1st home =====
+   [INFO ]2025-02-2513:34:53.734[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 3rd batch =====
+   [INFO ]2025-02-2513:34:53.891[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 2nd Program =====
+   [INFO ]2025-02-2513:34:58.474[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate navigation bar order 5th logout =====
+   [INFO ]2025-02-2513:34:59.473[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 4th class =====
+   [INFO ]2025-02-2513:35:00.680[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify user details =====
+   [INFO ]2025-02-2513:35:00.872[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify staff count =====
+   [INFO ]2025-02-2513:35:01.983[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify bar chart =====
+   [INFO ]2025-02-2513:35:03.001[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify user count =====
+   [INFO ]2025-02-2513:35:05.128[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: verify pie-chart presence =====
+   [INFO ]2025-02-2513:35:05.287[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify staff data page split =====
+   [INFO ]2025-02-2513:35:06.354[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: verify program count =====
+   [INFO ]2025-02-2513:35:06.414[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify pagination icon =====
+   [INFO ]2025-02-2513:35:08.710[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify batch count =====
+   [INFO ]2025-02-2513:35:11.032[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: verify previous page icon disable =====
+   [INFO ]2025-02-2513:35:13.085[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: verify first page icon disabled =====
+   [INFO ]2025-02-2513:35:13.264[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to land on login page =====
+   [INFO ]2025-02-2513:35:14.151[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to land on home page with invalid URL =====
+   [INFO ]2025-02-2513:35:14.813[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate sign in content =====
+   [INFO ]2025-02-2513:35:16.701[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify company name =====
+   [INFO ]2025-02-2513:35:18.595[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify the text spelling in the page =====
+   [INFO ]2025-02-2513:35:18.752[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify for broken link =====
+   [INFO ]2025-02-2513:35:19.135[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify application name =====
+   [ERROR]2025-02-2513:35:19.585[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Verify for broken link
+   [ERROR]2025-02-2513:35:19.889[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Verify company name
+   [ERROR]2025-02-2513:35:19.989[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Verify application name
+   [INFO ]2025-02-2513:35:23.046[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify text on the first field =====
+   [INFO ]2025-02-2513:35:23.746[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify text field is present =====
+   [INFO ]2025-02-2513:35:25.234[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify text on the second field =====
+   [INFO ]2025-02-2513:35:25.282[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify asterisk next to USER text =====
+   [INFO ]2025-02-2513:35:26.214[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify asterisk mark symbol next to password text =====
+   [INFO ]2025-02-2513:35:27.535[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify the alignment input field for the login =====
+   [ERROR]2025-02-2513:35:28.097[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Verify the alignment input field for the login
+   [INFO ]2025-02-2513:35:28.129[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify dropdown option to select role =====
+   [INFO ]2025-02-2513:35:28.492[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify placeholder in dropdown to select role =====
+   [INFO ]2025-02-2513:35:28.898[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify dropdown is present =====
+   [INFO ]2025-02-2513:35:33.078[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify input descriptive text in user field =====
+   [INFO ]2025-02-2513:35:33.428[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate login with valid data in all field =====
+   [ERROR]2025-02-2513:35:34.017[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify input descriptive text in user field
+   [INFO ]2025-02-2513:35:34.117[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate login with invalid data =====
+   [INFO ]2025-02-2513:35:34.162[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify Login button is present =====
+   [INFO ]2025-02-2513:35:35.497[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate login with invalid data =====
+   [INFO ]2025-02-2513:35:36.487[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify input descriptive text in password field =====
+   [INFO ]2025-02-2513:35:37.242[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate login credentials with null user name =====
+   [ERROR]2025-02-2513:35:37.322[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify input descriptive text in password field
+   [INFO ]2025-02-2513:35:38.584[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate login credentials with null password =====
+   [INFO ]2025-02-2513:35:39.222[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: verify login button action through keyboard =====
+   [INFO ]2025-02-2513:35:41.132[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: verify login button action through mouse =====
+   [INFO ]2025-02-2513:35:46.249[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify logout function =====
+   [ERROR]2025-02-2513:35:47.326[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Validate login with invalid data
+   [INFO ]2025-02-2513:35:47.601[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify add New Program =====
+   [INFO ]2025-02-2513:35:47.669[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [ERROR]2025-02-2513:35:48.271[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Validate login with invalid data
+   [INFO ]2025-02-2513:35:48.795[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify sub menu displayed in program menu bar =====
+   [INFO ]2025-02-2513:35:50.036[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2513:35:50.953[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [INFO ]2025-02-2513:35:51.481[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify back button function =====
+   [INFO ]2025-02-2513:35:52.170[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [ERROR]2025-02-2513:35:52.261[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Verify sub menu displayed in program menu bar
+   [ERROR]2025-02-2513:35:54.651[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify back button function
+   [INFO ]2025-02-2513:35:58.945[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2513:35:59.556[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2513:35:59.709[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify cancel button =====
+   [INFO ]2025-02-2513:36:00.024[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2513:36:00.188[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2513:36:03.050[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Edit option =====
+   [INFO ]2025-02-2513:36:04.234[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2513:36:04.698[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify added Program is created =====
+   [INFO ]2025-02-2513:36:05.435[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify close window with "X" =====
+   [INFO ]2025-02-2513:36:10.663[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to save the program details =====
+   [INFO ]2025-02-2513:36:13.207[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [INFO ]2025-02-2513:36:16.434[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [INFO ]2025-02-2513:36:17.365[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Cancel =====
+   [INFO ]2025-02-2513:36:18.667[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify close the window with "X" =====
+   [INFO ]2025-02-2513:36:18.777[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify edit Program Name =====
+   [INFO ]2025-02-2513:36:20.355[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify edit Description =====
+   [INFO ]2025-02-2513:36:22.285[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Save =====
+   [INFO ]2025-02-2513:36:22.993[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
+   [INFO ]2025-02-2513:36:27.063[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify edit Status =====
+   [INFO ]2025-02-2513:36:27.425[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Last page link =====
+   [INFO ]2025-02-2513:36:30.053[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program description =====
+   [INFO ]2025-02-2513:36:30.978[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [INFO ]2025-02-2513:36:31.324[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program name =====
+   [INFO ]2025-02-2513:36:31.715[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click First page link =====
+   [INFO ]2025-02-2513:36:31.934[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are no records =====
+   [INFO ]2025-02-2513:36:32.329[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are less than 5 records =====
+   [INFO ]2025-02-2513:36:34.164[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results not found =====
+   [ERROR]2025-02-2513:36:35.781[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are no records
+   [ERROR]2025-02-2513:36:36.594[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to search results found for program name
+   [ERROR]2025-02-2513:36:36.643[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [INFO ]2025-02-2513:36:36.743[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search with partial program name =====
+   [ERROR]2025-02-2513:36:37.996[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are less than 5 records
+   [INFO ]2025-02-2513:36:45.632[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Name =====
+   [INFO ]2025-02-2513:36:45.791[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Description =====
+   [INFO ]2025-02-2513:36:46.766[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [INFO ]2025-02-2513:36:47.052[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify heading in menu bar =====
+   [INFO ]2025-02-2513:36:47.146[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Status =====
+   [ERROR]2025-02-2513:36:49.974[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to search results not found
+   [INFO ]2025-02-2513:36:50.179[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Logout displayed in menu bar =====
+   [INFO ]2025-02-2513:36:56.051[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify other pages name displayed in menu bar =====
+   [INFO ]2025-02-2513:36:57.826[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify heading in manage program =====
+   [INFO ]2025-02-2513:36:58.167[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify checkbox default state beside Program Name column header =====
+   [INFO ]2025-02-2513:36:58.969[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify view details of programs =====
+   [INFO ]2025-02-2513:37:04.724[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify column header name of data table =====
+   [INFO ]2025-02-2513:37:04.965[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify the Multiple Delete button state =====
+   [INFO ]2025-02-2513:37:05.020[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify checkboxes default state beside each Program names in the data table =====
+   [INFO ]2025-02-2513:37:05.100[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify the Search button =====
+   [INFO ]2025-02-2513:37:05.461[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify Sort icon in manage program =====
+   [INFO ]2025-02-2513:37:07.907[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify edit and delete icon in manage program =====
+   [INFO ]2025-02-2513:37:11.100[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify footer message in manage program =====
+   [INFO ]2025-02-2513:37:12.888[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify delete feature =====
+   [INFO ]2025-02-2513:37:13.299[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify pagination icons below data table in manage program =====
+   [INFO ]2025-02-2513:37:17.024[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [INFO ]2025-02-2513:37:21.951[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [INFO ]2025-02-2513:37:22.863[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [INFO ]2025-02-2513:37:27.051[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [INFO ]2025-02-2513:37:27.310[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2513:37:27.314[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2513:37:27.357[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to delete Multiple programs =====
+   [INFO ]2025-02-2513:37:27.723[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [INFO ]2025-02-2513:37:28.144[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to select multiple programs =====
+   [INFO ]2025-02-2513:37:29.048[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [ERROR]2025-02-2513:37:35.648[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click 'Yes'
+   [ERROR]2025-02-2513:37:36.305[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click 'No'
+   [ERROR]2025-02-2513:37:36.495[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to deleted program
+   [ERROR]2025-02-2513:37:47.688[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to deleted program
+   [INFO ]2025-02-2514:15:56.085[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate delete icon in each data rows =====
+   [INFO ]2025-02-2514:15:56.085[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:15:57.869[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate disabled "Delete Icon" under the header in the Batch Page =====
+   [INFO ]2025-02-2514:15:58.035[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate edit icon in each data rows =====
+   [INFO ]2025-02-2514:15:58.067[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate pagination in the Batch Page =====
+   [INFO ]2025-02-2514:15:58.277[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:15:58.780[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate "heading" in the Batch Page =====
+   [INFO ]2025-02-2514:15:59.610[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate checkbox in each data rows =====
+   [INFO ]2025-02-2514:16:00.105[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate "Title" in Batch Page =====
+   [INFO ]2025-02-2514:16:00.278[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin Navigate to Batch page successfully =====
+   [INFO ]2025-02-2514:16:03.309[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:16:07.648[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:16:09.819[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:16:11.815[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate "Checkbox" in the Datatable header row =====
+   [INFO ]2025-02-2514:16:11.962[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:16:12.167[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate "sort icon" next to all the datatable header =====
+   [INFO ]2025-02-2514:16:12.282[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify sub menu displayed in batch menu bar =====
+   [INFO ]2025-02-2514:16:13.201[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate Admin able to click on the Add new Batch Option =====
+   [INFO ]2025-02-2514:16:13.767[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:16:15.226[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:16:15.412[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:16:16.599[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:16:17.499[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:16:23.888[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: validate close icon on the batch details pop up =====
+   [INFO ]2025-02-2514:16:24.018[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate batch name suffix box should accept only numbers =====
+   [INFO ]2025-02-2514:16:24.300[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: validate save button in Batch details pop up =====
+   [INFO ]2025-02-2514:16:24.823[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: validate cancel button in Batch details pop up =====
+   [INFO ]2025-02-2514:16:25.244[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate input data missing for mandatory fields =====
+   [INFO ]2025-02-2514:16:25.749[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate batchname prefix selected program name =====
+   [INFO ]2025-02-2514:16:25.789[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate input data only for mandatory fields =====
+   [INFO ]2025-02-2514:16:25.926[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate batch name prefix box is not editable =====
+   [INFO ]2025-02-2514:16:29.265[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: validate delete Icon on any row =====
+   [INFO ]2025-02-2514:16:33.365[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate yes button on the confirm alert box =====
+   [INFO ]2025-02-2514:16:36.645[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate close Icon on the alert box =====
+   [INFO ]2025-02-2514:16:37.018[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate no button on the confirm alert box =====
+   [INFO ]2025-02-2514:16:37.018[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate batch name value is disabled to edit =====
+   [INFO ]2025-02-2514:16:42.469[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate program name value is disabled to edit =====
+   [INFO ]2025-02-2514:16:43.468[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate Edit icon feature in any row =====
+   [INFO ]2025-02-2514:16:44.751[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: validate save button in Batch details pop up =====
+   [ERROR]2025-02-2514:16:45.619[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: validate save button in Batch details pop up
+   [ERROR]2025-02-2514:16:46.048[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Validate input data only for mandatory fields
+   [INFO ]2025-02-2514:16:47.668[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate editing description and No. of classes fields with invalid data in the pop up =====
+   [INFO ]2025-02-2514:16:49.245[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: validate cancel button in Batch details pop up =====
+   [INFO ]2025-02-2514:16:50.283[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate logout option in the header is visible and enabled from the batch page =====
+   [INFO ]2025-02-2514:16:57.217[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate single row delete with checkbox =====
+   [INFO ]2025-02-2514:16:57.458[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate multiple row delete with checkbox =====
+   [INFO ]2025-02-2514:16:57.549[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate next page link =====
+   [INFO ]2025-02-2514:16:57.800[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate last page link =====
+   [INFO ]2025-02-2514:16:58.153[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate the previous page link =====
+   [INFO ]2025-02-2514:17:00.659[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validating the Header in the Manage class page =====
+   [INFO ]2025-02-2514:17:00.878[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate search box functionality =====
+   [INFO ]2025-02-2514:17:00.892[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: validate the first page link =====
+   [ERROR]2025-02-2514:17:02.765[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple row delete with checkbox
+   [INFO ]2025-02-2514:17:04.500[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validating the class manage page =====
+   [INFO ]2025-02-2514:17:10.246[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validating the data table headers in the class page =====
+   [ERROR]2025-02-2514:17:11.201[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Validate single row delete with checkbox
+   [INFO ]2025-02-2514:17:11.404[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validating Search bar in class page =====
+   [INFO ]2025-02-2514:17:12.169[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate the total no of classes in manage class page =====
+   [INFO ]2025-02-2514:17:13.787[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate the sort icon of all the field in datatable =====
+   [INFO ]2025-02-2514:17:14.167[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validating the text and pagination icon in the classpage =====
+   [INFO ]2025-02-2514:17:14.175[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validating the Delete button under the Manage class =====
+   [INFO ]2025-02-2514:17:16.535[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate Class Details Popup window =====
+   [INFO ]2025-02-2514:17:17.686[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate input fields and their text boxes in Class details form =====
+   [INFO ]2025-02-2514:17:23.317[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Check if class is created when only mandatory fields are entered with valid data =====
+   [INFO ]2025-02-2514:17:24.495[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Check if class is created when only optional fields are entered with valid data =====
+   [INFO ]2025-02-2514:17:24.559[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Check no of classes value added when selecting class dates =====
+   [INFO ]2025-02-2514:17:24.678[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Check weekend dates are disabled in calendar =====
+   [INFO ]2025-02-2514:17:27.966[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Empty form submission =====
+   [INFO ]2025-02-2514:17:28.466[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: check if class is created when invalid data is entered in all of the fields =====
+   [INFO ]2025-02-2514:17:28.849[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate Cancel/Close(X) icon on class Details form =====
+   [INFO ]2025-02-2514:17:37.612[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Check disabled class topic =====
+   [INFO ]2025-02-2514:17:38.490[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Check disabled batch name =====
+   [INFO ]2025-02-2514:17:38.594[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Check if the fields are updated with invalid values =====
+   [ERROR]2025-02-2514:17:39.747[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate Cancel/Close(X) icon on class Details form
+   [INFO ]2025-02-2514:17:40.066[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate Save button on class Details form =====
+   [ERROR]2025-02-2514:17:40.298[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: check if class is created when invalid data is entered in all of the fields
+   [INFO ]2025-02-2514:17:40.745[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate row level edit icon =====
+   [INFO ]2025-02-2514:17:41.179[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Check if the fields are updated with valid data =====
+   [INFO ]2025-02-2514:17:43.249[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Check if the mandatory fields are updated with valid data =====
+   [ERROR]2025-02-2514:17:50.280[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Check disabled class topic
+   [ERROR]2025-02-2514:17:50.294[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Check if class is created when only mandatory fields are entered with valid data
+   [ERROR]2025-02-2514:17:54.342[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Check disabled batch name
+   [ERROR]2025-02-2514:17:54.508[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Validate row level edit icon
+   [INFO ]2025-02-2514:17:54.809[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Check if the optional fields are updated with valid data =====
+   [ERROR]2025-02-2514:17:54.846[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Check if the fields are updated with invalid values
+   [ERROR]2025-02-2514:17:54.933[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Check if the fields are updated with valid data
+   [INFO ]2025-02-2514:17:55.273[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate invalid values in the text fields =====
+   [INFO ]2025-02-2514:17:55.496[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate Cancel button on Edit popup =====
+   [ERROR]2025-02-2514:17:55.607[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Check if the mandatory fields are updated with valid data
+   [INFO ]2025-02-2514:18:04.897[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Class link to other page on navigation bar =====
+   [INFO ]2025-02-2514:18:05.535[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Class link on navigation bar =====
+   [INFO ]2025-02-2514:18:06.148[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Single check box =====
+   [INFO ]2025-02-2514:18:07.158[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Multiple check boxes =====
+   [ERROR]2025-02-2514:18:07.597[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Check if the optional fields are updated with valid data
+   [INFO ]2025-02-2514:18:07.965[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Logout link on navigation bar =====
+   [INFO ]2025-02-2514:18:07.746[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Common Delete button enabled after clicking on any checkbox =====
+   [ERROR]2025-02-2514:18:08.294[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate invalid values in the text fields
+   [ERROR]2025-02-2514:18:08.315[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Validate Cancel button on Edit popup
+   [INFO ]2025-02-2514:18:08.743[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Single checkbox =====
+   [INFO ]2025-02-2514:18:17.829[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Multiple check boxes =====
+   [INFO ]2025-02-2514:18:18.871[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Next page link(>) =====
+   [INFO ]2025-02-2514:18:19.026[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Last page link(>>) =====
+   [ERROR]2025-02-2514:18:19.880[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Single check box
+   [ERROR]2025-02-2514:18:20.472[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Multiple check boxes
+   [ERROR]2025-02-2514:18:22.914[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Single checkbox
+   [INFO ]2025-02-2514:18:23.034[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify First page link(<) =====
+   [INFO ]2025-02-2514:18:23.389[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Start page link(<<) =====
+   [ERROR]2025-02-2514:18:23.423[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Validate Common Delete button enabled after clicking on any checkbox
+   [INFO ]2025-02-2514:18:23.966[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Search class by Batch Name =====
+   [ERROR]2025-02-2514:18:24.642[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Verify Next page link(>)
+   [ERROR]2025-02-2514:18:28.159[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Verify First page link(<)
+   [ERROR]2025-02-2514:18:28.657[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify Start page link(<<)
+   [ERROR]2025-02-2514:18:30.865[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Multiple check boxes
+   [INFO ]2025-02-2514:18:32.856[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Search class by Class topic =====
+   [INFO ]2025-02-2514:18:33.753[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class Description =====
+   [INFO ]2025-02-2514:18:34.988[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Batch name =====
+   [INFO ]2025-02-2514:18:35.138[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Search class by Staff Name =====
+   [INFO ]2025-02-2514:18:35.941[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Status =====
+   [INFO ]2025-02-2514:18:37.007[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class topic =====
+   [INFO ]2025-02-2514:18:38.662[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class date =====
+   [ERROR]2025-02-2514:18:38.558[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Search class by Batch Name
+   [INFO ]2025-02-2514:18:40.495[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Sort Class by staff name =====
+   [ERROR]2025-02-2514:18:41.661[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Search class by Staff Name
+   [ERROR]2025-02-2514:18:44.557[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Search class by Class topic
+   [INFO ]2025-02-2514:18:46.934[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate row level delete icon =====
+   [INFO ]2025-02-2514:18:52.164[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Click No on deletion window =====
+   [INFO ]2025-02-2514:18:52.330[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Close(X) icon on Confirm Deletion alert =====
+   [INFO ]2025-02-2514:18:52.585[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Click Yes on deletion window =====
+   [INFO ]2025-02-2514:18:57.199[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [ERROR]2025-02-2514:19:00.604[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Validate row level delete icon
+   [INFO ]2025-02-2514:19:02.678[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar text =====
+   [INFO ]2025-02-2514:19:02.911[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title =====
+   [INFO ]2025-02-2514:19:04.232[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title alignment =====
+   [INFO ]2025-02-2514:19:04.268[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate LMS title has correct spelling and space =====
+   [ERROR]2025-02-2514:19:05.792[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Validate Close(X) icon on Confirm Deletion alert
+   [ERROR]2025-02-2514:19:06.328[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Click Yes on deletion window
+   [INFO ]2025-02-2514:19:06.472[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 1st home =====
+   [ERROR]2025-02-2514:19:06.635[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Click No on deletion window
+   [INFO ]2025-02-2514:19:06.950[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate alignment for navigation bar =====
+   [INFO ]2025-02-2514:19:13.305[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 2nd Program =====
+   [INFO ]2025-02-2514:19:14.539[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: validate navigation bar order 5th logout =====
+   [INFO ]2025-02-2514:19:16.107[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 4th class =====
+   [INFO ]2025-02-2514:19:17.586[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: verify pie-chart presence =====
+   [INFO ]2025-02-2514:19:18.113[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify bar chart =====
+   [INFO ]2025-02-2514:19:18.298[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: verify program count =====
+   [INFO ]2025-02-2514:19:18.823[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify user details =====
+   [INFO ]2025-02-2514:19:19.450[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 3rd batch =====
+   [INFO ]2025-02-2514:19:20.129[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify user count =====
+   [INFO ]2025-02-2514:19:21.659[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify staff count =====
+   [INFO ]2025-02-2514:19:29.756[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: verify pagination icon =====
+   [INFO ]2025-02-2514:19:31.443[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify the text spelling in the page =====
+   [INFO ]2025-02-2514:19:31.544[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify batch count =====
+   [INFO ]2025-02-2514:19:32.215[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to land on login page =====
+   [INFO ]2025-02-2514:19:32.402[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to land on home page with invalid URL =====
+   [INFO ]2025-02-2514:19:33.023[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify staff data page split =====
+   [INFO ]2025-02-2514:19:33.075[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify for broken link =====
+   [INFO ]2025-02-2514:19:34.038[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: verify first page icon disabled =====
+   [INFO ]2025-02-2514:19:34.334[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: verify previous page icon disable =====
+   [ERROR]2025-02-2514:19:34.338[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify for broken link
+   [INFO ]2025-02-2514:19:38.582[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify application name =====
+   [ERROR]2025-02-2514:19:41.981[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Verify application name
+   [INFO ]2025-02-2514:19:43.523[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify text field is present =====
+   [INFO ]2025-02-2514:19:43.574[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify company name =====
+   [INFO ]2025-02-2514:19:44.331[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify asterisk next to USER text =====
+   [INFO ]2025-02-2514:19:44.341[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify text on the second field =====
+   [ERROR]2025-02-2514:19:44.574[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Verify company name
+   [INFO ]2025-02-2514:19:47.090[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify placeholder in dropdown to select role =====
+   [INFO ]2025-02-2514:19:47.423[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate sign in content =====
+   [INFO ]2025-02-2514:19:47.423[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify asterisk mark symbol next to password text =====
+   [INFO ]2025-02-2514:19:47.560[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify text on the first field =====
+   [INFO ]2025-02-2514:19:48.581[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify dropdown is present =====
+   [INFO ]2025-02-2514:19:55.543[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify the alignment input field for the login =====
+   [INFO ]2025-02-2514:19:56.116[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate login with invalid data =====
+   [ERROR]2025-02-2514:19:56.144[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Verify the alignment input field for the login
+   [INFO ]2025-02-2514:19:56.574[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate login credentials with null user name =====
+   [INFO ]2025-02-2514:19:56.980[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate login with valid data in all field =====
+   [INFO ]2025-02-2514:19:57.172[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate login with invalid data =====
+   [INFO ]2025-02-2514:19:57.407[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify Login button is present =====
+   [INFO ]2025-02-2514:19:57.610[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify input descriptive text in user field =====
+   [INFO ]2025-02-2514:19:57.784[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify dropdown option to select role =====
+   [ERROR]2025-02-2514:19:58.431[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify input descriptive text in user field
+   [INFO ]2025-02-2514:19:59.104[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify input descriptive text in password field =====
+   [ERROR]2025-02-2514:19:59.767[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify input descriptive text in password field
+   [INFO ]2025-02-2514:20:02.507[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate login credentials with null password =====
+   [INFO ]2025-02-2514:20:09.372[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [INFO ]2025-02-2514:20:10.141[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify login button action through mouse =====
+   [INFO ]2025-02-2514:20:10.816[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify sub menu displayed in program menu bar =====
+   [INFO ]2025-02-2514:20:10.945[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify back button function =====
+   [INFO ]2025-02-2514:20:10.998[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify add New Program =====
+   [ERROR]2025-02-2514:20:11.097[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Validate login with invalid data
+   [ERROR]2025-02-2514:20:11.161[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Validate login with invalid data
+   [INFO ]2025-02-2514:20:12.058[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify logout function =====
+   [INFO ]2025-02-2514:20:12.187[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: verify login button action through keyboard =====
+   [ERROR]2025-02-2514:20:13.566[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify back button function
+   [ERROR]2025-02-2514:20:15.347[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Verify sub menu displayed in program menu bar
+   [INFO ]2025-02-2514:20:20.960[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2514:20:25.913[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify cancel button =====
+   [INFO ]2025-02-2514:20:26.209[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2514:20:26.739[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2514:20:27.294[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [INFO ]2025-02-2514:20:27.433[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2514:20:27.749[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2514:20:27.766[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2514:20:28.281[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2514:20:36.542[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to save the program details =====
+   [INFO ]2025-02-2514:20:42.753[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Cancel =====
+   [INFO ]2025-02-2514:20:43.601[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify close the window with "X" =====
+   [INFO ]2025-02-2514:20:45.011[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify added Program is created =====
+   [INFO ]2025-02-2514:20:45.846[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [INFO ]2025-02-2514:20:46.466[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Edit option =====
+   [INFO ]2025-02-2514:20:46.823[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify close window with "X" =====
+   [INFO ]2025-02-2514:20:47.209[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify edit Description =====
+   [INFO ]2025-02-2514:20:51.981[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [INFO ]2025-02-2514:20:54.155[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify edit Program Name =====
+   [INFO ]2025-02-2514:20:58.294[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Save =====
+   [INFO ]2025-02-2514:21:00.071[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify edit Status =====
+   [INFO ]2025-02-2514:21:01.557[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
+   [INFO ]2025-02-2514:21:02.810[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are no records =====
+   [INFO ]2025-02-2514:21:03.357[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [INFO ]2025-02-2514:21:03.594[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Last page link =====
+   [INFO ]2025-02-2514:21:05.136[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are less than 5 records =====
+   [INFO ]2025-02-2514:21:06.002[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click First page link =====
+   [ERROR]2025-02-2514:21:06.962[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [ERROR]2025-02-2514:21:08.228[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are less than 5 records
+   [ERROR]2025-02-2514:21:08.446[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are no records
+   [INFO ]2025-02-2514:21:11.626[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program description =====
+   [INFO ]2025-02-2514:21:12.011[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program name =====
+   [INFO ]2025-02-2514:21:14.888[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results not found =====
+   [ERROR]2025-02-2514:21:16.751[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to search results found for program name
+   [INFO ]2025-02-2514:21:18.814[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Description =====
+   [INFO ]2025-02-2514:21:19.063[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search with partial program name =====
+   [INFO ]2025-02-2514:21:20.371[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Status =====
+   [INFO ]2025-02-2514:21:21.697[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Logout displayed in menu bar =====
+   [INFO ]2025-02-2514:21:21.914[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [INFO ]2025-02-2514:21:22.112[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Name =====
+   [INFO ]2025-02-2514:21:22.237[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify heading in menu bar =====
+   [ERROR]2025-02-2514:21:29.283[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to search results not found
+   [INFO ]2025-02-2514:21:30.744[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify heading in manage program =====
+   [INFO ]2025-02-2514:21:31.296[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify the Multiple Delete button state =====
+   [INFO ]2025-02-2514:21:32.380[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify view details of programs =====
+   [INFO ]2025-02-2514:21:32.773[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify other pages name displayed in menu bar =====
+   [INFO ]2025-02-2514:21:35.610[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify the Search button =====
+   [INFO ]2025-02-2514:21:37.160[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify column header name of data table =====
+   [INFO ]2025-02-2514:21:40.155[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify checkboxes default state beside each Program names in the data table =====
+   [INFO ]2025-02-2514:21:41.333[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify checkbox default state beside Program Name column header =====
+   [INFO ]2025-02-2514:21:41.948[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify Sort icon in manage program =====
+   [INFO ]2025-02-2514:21:46.495[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify edit and delete icon in manage program =====
+   [INFO ]2025-02-2514:21:48.771[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify pagination icons below data table in manage program =====
+   [INFO ]2025-02-2514:21:50.838[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify footer message in manage program =====
+   [INFO ]2025-02-2514:21:51.810[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify delete feature =====
+   [INFO ]2025-02-2514:21:51.975[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [INFO ]2025-02-2514:21:53.101[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [INFO ]2025-02-2514:21:54.050[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [INFO ]2025-02-2514:21:54.992[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2514:22:00.171[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to select multiple programs =====
+   [INFO ]2025-02-2514:22:02.912[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to delete Multiple programs =====
+   [INFO ]2025-02-2514:22:05.870[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [ERROR]2025-02-2514:22:08.547[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to deleted program
+   [INFO ]2025-02-2514:22:09.607[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [INFO ]2025-02-2514:22:10.377[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2514:22:11.331[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [ERROR]2025-02-2514:22:12.687[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click 'Yes'
+   [ERROR]2025-02-2514:22:25.320[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to deleted program
+   [ERROR]2025-02-2514:22:26.630[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click 'No'
+   [INFO ]2025-02-2514:40:35.232[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate delete icon in each data rows =====
+   [INFO ]2025-02-2514:40:36.593[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate "heading" in the Batch Page =====
+   [INFO ]2025-02-2514:40:36.800[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:40:37.807[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate checkbox in each data rows =====
+   [INFO ]2025-02-2514:40:37.987[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate disabled "Delete Icon" under the header in the Batch Page =====
+   [INFO ]2025-02-2514:40:38.714[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate "Title" in Batch Page =====
+   [INFO ]2025-02-2514:40:38.831[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:40:39.039[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate pagination in the Batch Page =====
+   [INFO ]2025-02-2514:40:39.174[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin Navigate to Batch page successfully =====
+   [INFO ]2025-02-2514:40:39.853[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate edit icon in each data rows =====
+   [INFO ]2025-02-2514:40:47.317[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:40:47.589[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify sub menu displayed in batch menu bar =====
+   [INFO ]2025-02-2514:40:47.658[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:40:47.804[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:40:48.052[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate "Checkbox" in the Datatable header row =====
+   [INFO ]2025-02-2514:40:48.323[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate Datatable headers =====
+   [INFO ]2025-02-2514:40:50.104[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate "sort icon" next to all the datatable header =====
+   [INFO ]2025-02-2514:40:52.025[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:40:52.639[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate Admin able to click on the Add new Batch Option =====
+   [INFO ]2025-02-2514:40:53.520[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:40:57.805[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:40:58.273[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:41:01.389[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate batchname prefix selected program name =====
+   [INFO ]2025-02-2514:41:03.143[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate batch name prefix box is not editable =====
+   [INFO ]2025-02-2514:41:03.380[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validate all the fields exist in pop up =====
+   [INFO ]2025-02-2514:41:03.468[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate input data only for mandatory fields =====
+   [INFO ]2025-02-2514:41:03.679[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: validate input data missing for mandatory fields =====
+   [INFO ]2025-02-2514:41:03.682[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate save button in Batch details pop up =====
+   [INFO ]2025-02-2514:41:04.158[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate batch name suffix box should accept only numbers =====
+   [INFO ]2025-02-2514:41:06.561[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: validate cancel button in Batch details pop up =====
+   [INFO ]2025-02-2514:41:11.590[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: validate close icon on the batch details pop up =====
+   [INFO ]2025-02-2514:41:14.074[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate no button on the confirm alert box =====
+   [INFO ]2025-02-2514:41:15.960[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate Edit icon feature in any row =====
+   [INFO ]2025-02-2514:41:17.455[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate program name value is disabled to edit =====
+   [INFO ]2025-02-2514:41:17.541[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate yes button on the confirm alert box =====
+   [INFO ]2025-02-2514:41:17.903[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: validate close Icon on the alert box =====
+   [INFO ]2025-02-2514:41:18.211[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate delete Icon on any row =====
+   [ERROR]2025-02-2514:41:22.160[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Validate input data only for mandatory fields
+   [ERROR]2025-02-2514:41:22.287[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: validate save button in Batch details pop up
+   [INFO ]2025-02-2514:41:28.124[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: validate save button in Batch details pop up =====
+   [INFO ]2025-02-2514:41:28.219[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate editing description and No. of classes fields with invalid data in the pop up =====
+   [INFO ]2025-02-2514:41:30.554[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate logout option in the header is visible and enabled from the batch page =====
+   [INFO ]2025-02-2514:41:31.022[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate multiple row delete with checkbox =====
+   [INFO ]2025-02-2514:41:32.424[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: validate cancel button in Batch details pop up =====
+   [INFO ]2025-02-2514:41:32.777[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate batch name value is disabled to edit =====
+   [INFO ]2025-02-2514:41:34.592[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate single row delete with checkbox =====
+   [INFO ]2025-02-2514:41:42.600[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate next page link =====
+   [INFO ]2025-02-2514:41:44.068[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: validate the previous page link =====
+   [INFO ]2025-02-2514:41:44.786[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: validate the first page link =====
+   [INFO ]2025-02-2514:41:45.408[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: validate last page link =====
+   [ERROR]2025-02-2514:41:45.557[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Validate single row delete with checkbox
+   [INFO ]2025-02-2514:41:45.763[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: validate search box functionality =====
+   [INFO ]2025-02-2514:41:46.363[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validating the class manage page =====
+   [ERROR]2025-02-2514:41:47.394[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple row delete with checkbox
+   [INFO ]2025-02-2514:41:50.856[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Validating the Header in the Manage class page =====
+   [INFO ]2025-02-2514:41:53.955[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validating the data table headers in the class page =====
+   [INFO ]2025-02-2514:41:54.834[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validating the Delete button under the Manage class =====
+   [INFO ]2025-02-2514:41:55.320[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validating Search bar in class page =====
+   [INFO ]2025-02-2514:41:55.320[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validating the text and pagination icon in the classpage =====
+   [INFO ]2025-02-2514:41:57.837[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate Class Details Popup window =====
+   [INFO ]2025-02-2514:41:58.165[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate the total no of classes in manage class page =====
+   [INFO ]2025-02-2514:41:58.385[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate the sort icon of all the field in datatable =====
+   [INFO ]2025-02-2514:42:05.461[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Check no of classes value added when selecting class dates =====
+   [INFO ]2025-02-2514:42:06.554[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate input fields and their text boxes in Class details form =====
+   [INFO ]2025-02-2514:42:07.666[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Check if class is created when only mandatory fields are entered with valid data =====
+   [INFO ]2025-02-2514:42:07.900[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Check weekend dates are disabled in calendar =====
+   [INFO ]2025-02-2514:42:08.005[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Check if class is created when only optional fields are entered with valid data =====
+   [INFO ]2025-02-2514:42:12.660[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: check if class is created when invalid data is entered in all of the fields =====
+   [INFO ]2025-02-2514:42:16.071[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate Cancel/Close(X) icon on class Details form =====
+   [INFO ]2025-02-2514:42:16.948[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate Save button on class Details form =====
+   [INFO ]2025-02-2514:42:17.446[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Empty form submission =====
+   [INFO ]2025-02-2514:42:22.733[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate row level edit icon =====
+   [INFO ]2025-02-2514:42:25.417[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Check if the mandatory fields are updated with valid data =====
+   [INFO ]2025-02-2514:42:25.497[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Check disabled batch name =====
+   [INFO ]2025-02-2514:42:25.788[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Check disabled class topic =====
+   [INFO ]2025-02-2514:42:26.158[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Check if the fields are updated with invalid values =====
+   [INFO ]2025-02-2514:42:26.532[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Check if the fields are updated with valid data =====
+   [ERROR]2025-02-2514:42:28.359[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate Save button on class Details form
+   [ERROR]2025-02-2514:42:35.705[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Validate row level edit icon
+   [ERROR]2025-02-2514:42:37.150[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: check if class is created when invalid data is entered in all of the fields
+   [ERROR]2025-02-2514:42:39.109[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Check disabled class topic
+   [ERROR]2025-02-2514:42:39.225[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Check disabled batch name
+   [ERROR]2025-02-2514:42:39.427[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Check if the mandatory fields are updated with valid data
+   [INFO ]2025-02-2514:42:39.485[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Check if the optional fields are updated with valid data =====
+   [ERROR]2025-02-2514:42:39.699[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Validate Cancel/Close(X) icon on class Details form
+   [ERROR]2025-02-2514:42:39.900[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Check if the fields are updated with invalid values
+   [ERROR]2025-02-2514:42:40.152[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Check if the fields are updated with valid data
+   [INFO ]2025-02-2514:42:40.630[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate invalid values in the text fields =====
+   [INFO ]2025-02-2514:42:48.240[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Class link to other page on navigation bar =====
+   [INFO ]2025-02-2514:42:48.680[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Logout link on navigation bar =====
+   [INFO ]2025-02-2514:42:49.389[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Multiple check boxes =====
+   [INFO ]2025-02-2514:42:49.454[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate Common Delete button enabled after clicking on any checkbox =====
+   [INFO ]2025-02-2514:42:49.940[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Single check box =====
+   [INFO ]2025-02-2514:42:50.905[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Single checkbox =====
+   [INFO ]2025-02-2514:42:51.451[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate Cancel button on Edit popup =====
+   [ERROR]2025-02-2514:42:51.596[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Check if the optional fields are updated with valid data
+   [INFO ]2025-02-2514:42:52.257[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Class link on navigation bar =====
+   [ERROR]2025-02-2514:42:52.270[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate invalid values in the text fields
+   [INFO ]2025-02-2514:43:00.750[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate multiple class deletion by selecting Multiple check boxes =====
+   [INFO ]2025-02-2514:43:00.840[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Next page link(>) =====
+   [INFO ]2025-02-2514:43:02.652[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Last page link(>>) =====
+   [ERROR]2025-02-2514:43:03.997[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Validate Common Delete button enabled after clicking on any checkbox
+   [ERROR]2025-02-2514:43:04.111[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Multiple check boxes
+   [ERROR]2025-02-2514:43:04.118[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Single check box
+   [INFO ]2025-02-2514:43:04.277[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify First page link(<) =====
+   [ERROR]2025-02-2514:43:04.786[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Single checkbox
+   [ERROR]2025-02-2514:43:04.881[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Validate Cancel button on Edit popup
+   [INFO ]2025-02-2514:43:05.921[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Start page link(<<) =====
+   [ERROR]2025-02-2514:43:06.888[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify Next page link(>)
+   [ERROR]2025-02-2514:43:08.244[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify First page link(<)
+   [ERROR]2025-02-2514:43:09.486[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify Start page link(<<)
+   [INFO ]2025-02-2514:43:11.033[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Search class by Class topic =====
+   [INFO ]2025-02-2514:43:11.752[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Search class by Batch Name =====
+   [INFO ]2025-02-2514:43:13.229[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Search class by Staff Name =====
+   [INFO ]2025-02-2514:43:14.419[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Batch name =====
+   [ERROR]2025-02-2514:43:15.060[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Validate multiple class deletion by selecting Multiple check boxes
+   [INFO ]2025-02-2514:43:16.073[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class topic =====
+   [ERROR]2025-02-2514:43:16.460[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Search class by Staff Name
+   [INFO ]2025-02-2514:43:19.250[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class Description =====
+   [INFO ]2025-02-2514:43:21.030[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Status =====
+   [INFO ]2025-02-2514:43:21.794[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Sort Class by staff name =====
+   [INFO ]2025-02-2514:43:23.730[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Sort Class by Class date =====
+   [ERROR]2025-02-2514:43:26.234[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Search class by Class topic
+   [INFO ]2025-02-2514:43:27.276[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate row level delete icon =====
+   [ERROR]2025-02-2514:43:27.818[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Search class by Batch Name
+   [INFO ]2025-02-2514:43:28.373[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Click Yes on deletion window =====
+   [INFO ]2025-02-2514:43:34.332[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Validate Close(X) icon on Confirm Deletion alert =====
+   [INFO ]2025-02-2514:43:34.792[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Click No on deletion window =====
+   [INFO ]2025-02-2514:43:36.688[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [INFO ]2025-02-2514:43:38.340[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title =====
+   [ERROR]2025-02-2514:43:39.551[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Validate row level delete icon
+   [ERROR]2025-02-2514:43:40.300[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Click Yes on deletion window
+   [INFO ]2025-02-2514:43:45.602[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify LMS title alignment =====
+   [INFO ]2025-02-2514:43:47.093[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate LMS title has correct spelling and space =====
+   [ERROR]2025-02-2514:43:47.263[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Validate Close(X) icon on Confirm Deletion alert
+   [INFO ]2025-02-2514:43:47.567[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar text =====
+   [ERROR]2025-02-2514:43:48.116[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Click No on deletion window
+   [INFO ]2025-02-2514:43:50.101[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 2nd Program =====
+   [INFO ]2025-02-2514:43:50.409[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Validate alignment for navigation bar =====
+   [INFO ]2025-02-2514:43:50.716[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 3rd batch =====
+   [INFO ]2025-02-2514:43:52.121[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 1st home =====
+   [INFO ]2025-02-2514:43:53.308[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate navigation bar order 4th class =====
+   [INFO ]2025-02-2514:43:59.512[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify bar chart =====
+   [INFO ]2025-02-2514:44:00.109[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify user count =====
+   [INFO ]2025-02-2514:44:00.629[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify pie-chart presence =====
+   [INFO ]2025-02-2514:44:00.747[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: verify program count =====
+   [INFO ]2025-02-2514:44:00.837[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify staff count =====
+   [INFO ]2025-02-2514:44:01.117[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify user details =====
+   [INFO ]2025-02-2514:44:01.169[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: validate navigation bar order 5th logout =====
+   [INFO ]2025-02-2514:44:03.106[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify batch count =====
+   [INFO ]2025-02-2514:44:09.963[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify staff data page split =====
+   [INFO ]2025-02-2514:44:10.221[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: verify pagination icon =====
+   [INFO ]2025-02-2514:44:14.082[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: verify previous page icon disable =====
+   [INFO ]2025-02-2514:44:14.440[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to land on login page =====
+   [INFO ]2025-02-2514:44:14.837[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: verify first page icon disabled =====
+   [INFO ]2025-02-2514:44:15.569[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to land on home page with invalid URL =====
+   [INFO ]2025-02-2514:44:21.527[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify for broken link =====
+   [INFO ]2025-02-2514:44:21.627[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify the text spelling in the page =====
+   [ERROR]2025-02-2514:44:22.794[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Verify for broken link
+   [INFO ]2025-02-2514:44:22.977[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify text on the first field =====
+   [INFO ]2025-02-2514:44:23.036[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify application name =====
+   [INFO ]2025-02-2514:44:23.333[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Validate sign in content =====
+   [INFO ]2025-02-2514:44:24.316[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify text field is present =====
+   [INFO ]2025-02-2514:44:24.644[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify company name =====
+   [ERROR]2025-02-2514:44:24.795[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Verify application name
+   [ERROR]2025-02-2514:44:25.495[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario Failed: Verify company name
+   [INFO ]2025-02-2514:44:26.690[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify asterisk next to USER text =====
+   [INFO ]2025-02-2514:44:26.704[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify text on the second field =====
+   [INFO ]2025-02-2514:44:34.183[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify asterisk mark symbol next to password text =====
+   [INFO ]2025-02-2514:44:34.288[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify dropdown option to select role =====
+   [INFO ]2025-02-2514:44:36.148[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Validate login with valid data in all field =====
+   [INFO ]2025-02-2514:44:37.037[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify dropdown is present =====
+   [INFO ]2025-02-2514:44:37.664[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify placeholder in dropdown to select role =====
+   [INFO ]2025-02-2514:44:38.032[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify the alignment input field for the login =====
+   [INFO ]2025-02-2514:44:38.205[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify input descriptive text in user field =====
+   [INFO ]2025-02-2514:44:38.384[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify Login button is present =====
+   [ERROR]2025-02-2514:44:39.261[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Verify input descriptive text in user field
+   [ERROR]2025-02-2514:44:39.508[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Verify the alignment input field for the login
+   [INFO ]2025-02-2514:44:40.481[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify input descriptive text in password field =====
+   [ERROR]2025-02-2514:44:41.013[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Verify input descriptive text in password field
+   [INFO ]2025-02-2514:44:41.316[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Validate login with invalid data =====
+   [INFO ]2025-02-2514:44:44.879[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Validate login with invalid data =====
+   [INFO ]2025-02-2514:44:48.145[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: verify login button action through keyboard =====
+   [INFO ]2025-02-2514:44:49.854[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: verify login button action through mouse =====
+   [INFO ]2025-02-2514:44:51.411[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify logout function =====
+   [INFO ]2025-02-2514:44:51.802[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify back button function =====
+   [INFO ]2025-02-2514:44:52.192[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Validate login credentials with null password =====
+   [ERROR]2025-02-2514:44:52.778[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Validate login with invalid data
+   [INFO ]2025-02-2514:44:52.893[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Validate login credentials with null user name =====
+   [INFO ]2025-02-2514:44:53.116[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify add New Program =====
+   [INFO ]2025-02-2514:44:54.092[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify sub menu displayed in program menu bar =====
+   [ERROR]2025-02-2514:44:55.387[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Verify back button function
+   [ERROR]2025-02-2514:44:57.134[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Verify sub menu displayed in program menu bar
+   [ERROR]2025-02-2514:44:58.157[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Validate login with invalid data
+   [INFO ]2025-02-2514:45:01.280[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [INFO ]2025-02-2514:45:05.879[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify cancel button =====
+   [INFO ]2025-02-2514:45:06.436[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2514:45:08.846[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2514:45:09.009[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2514:45:09.982[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2514:45:10.272[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [INFO ]2025-02-2514:45:11.564[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2514:45:18.454[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2514:45:20.358[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2514:45:25.864[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to save the program details =====
+   [INFO ]2025-02-2514:45:28.022[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify added Program is created =====
+   [INFO ]2025-02-2514:45:29.060[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify close window with "X" =====
+   [INFO ]2025-02-2514:45:32.367[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [INFO ]2025-02-2514:45:32.483[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Edit option =====
+   [INFO ]2025-02-2514:45:33.611[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify close the window with "X" =====
+   [INFO ]2025-02-2514:45:34.245[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [INFO ]2025-02-2514:45:35.353[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Cancel =====
+   [INFO ]2025-02-2514:45:38.306[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify edit Program Name =====
+   [INFO ]2025-02-2514:45:46.052[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify edit Description =====
+   [INFO ]2025-02-2514:45:46.737[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Save =====
+   [INFO ]2025-02-2514:45:47.632[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify edit Status =====
+   [INFO ]2025-02-2514:45:47.860[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
+   [INFO ]2025-02-2514:45:50.149[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Last page link =====
+   [INFO ]2025-02-2514:45:54.275[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [INFO ]2025-02-2514:45:56.562[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click First page link =====
+   [ERROR]2025-02-2514:45:57.524[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
+   [INFO ]2025-02-2514:45:58.050[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are no records =====
+   [INFO ]2025-02-2514:45:58.379[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program name =====
+   [INFO ]2025-02-2514:45:58.645[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are less than 5 records =====
+   [ERROR]2025-02-2514:46:02.195[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are no records
+   [ERROR]2025-02-2514:46:03.138[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to search results found for program name
+   [ERROR]2025-02-2514:46:03.997[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are less than 5 records
+   [INFO ]2025-02-2514:46:04.569[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program description =====
+   [INFO ]2025-02-2514:46:05.614[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results not found =====
+   [INFO ]2025-02-2514:46:06.965[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search with partial program name =====
+   [INFO ]2025-02-2514:46:07.394[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [INFO ]2025-02-2514:46:08.800[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Description =====
+   [INFO ]2025-02-2514:46:09.364[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Name =====
+   [INFO ]2025-02-2514:46:10.064[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Status =====
+   [INFO ]2025-02-2514:46:17.679[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify Logout displayed in menu bar =====
+   [ERROR]2025-02-2514:46:20.064[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to search results not found
+   [INFO ]2025-02-2514:46:23.654[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify heading in manage program =====
+   [INFO ]2025-02-2514:46:23.935[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify other pages name displayed in menu bar =====
+   [INFO ]2025-02-2514:46:25.557[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify the Search button =====
+   [INFO ]2025-02-2514:46:25.694[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify the Multiple Delete button state =====
+   [INFO ]2025-02-2514:46:26.078[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify column header name of data table =====
+   [INFO ]2025-02-2514:46:26.882[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify heading in menu bar =====
+   [INFO ]2025-02-2514:46:28.871[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify view details of programs =====
+   [INFO ]2025-02-2514:46:31.527[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify checkbox default state beside Program Name column header =====
+   [INFO ]2025-02-2514:46:40.140[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify checkboxes default state beside each Program names in the data table =====
+   [INFO ]2025-02-2514:46:40.805[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Sort icon in manage program =====
+   [INFO ]2025-02-2514:46:42.341[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify footer message in manage program =====
+   [INFO ]2025-02-2514:46:43.264[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [INFO ]2025-02-2514:46:44.509[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [INFO ]2025-02-2514:46:44.820[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [INFO ]2025-02-2514:46:46.430[TestNG-PoolService-0]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2514:46:51.874[TestNG-PoolService-7]utilitities.LoggerLoad1)-Scenario passed: Verify edit and delete icon in manage program =====
+   [INFO ]2025-02-2514:46:52.406[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify pagination icons below data table in manage program =====
+   [INFO ]2025-02-2514:46:53.848[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify delete feature =====
+   [ERROR]2025-02-2514:47:00.275[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to deleted program
+   [INFO ]2025-02-2514:47:03.412[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [INFO ]2025-02-2514:47:04.008[TestNG-PoolService-9]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to delete Multiple programs =====
+   [INFO ]2025-02-2514:47:04.621[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2514:47:05.242[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to select multiple programs =====
+   [INFO ]2025-02-2514:47:05.771[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [INFO ]2025-02-2514:47:07.115[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [ERROR]2025-02-2514:47:22.448[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click 'No'
+   [ERROR]2025-02-2514:47:23.462[TestNG-PoolService-8]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to deleted program
    
