@@ -93,7 +93,7 @@ public class ClassStep {
 
 	@When("Admin enters mandatory fields in the form and clicks on save button")
 	public void admin_enters_mandatory_fields_in_the_form_and_clicks_on_save_button() throws InterruptedException {
-		classAdd.enterMandtryFields("Python101", "yewret", "Testing", "February", "2025", "24", "Saranya M");
+		classAdd.enterMandtryFields("Python101", "yewret", "Testing", "February", "2025", "25", "Saranya M");
 	}
 
 	@Then("Admin gets message Class added Successfully")
@@ -103,7 +103,7 @@ public class ClassStep {
 
 	@When("Admin selects class date in date picker")
 	public void admin_selects_class_date_in_date_picker() {
-		classAdd.selectClassDate("February", "2025", "24");
+		classAdd.selectClassDate("February", "2025", "25");
 	}
 
 	@Then("Admin should see no of class value is added automatically")
@@ -134,7 +134,7 @@ public class ClassStep {
 	@When("Admin enters invalid data in all of the fields in the form and clicks on save button")
 	public void admin_enters_invalid_data_in_all_of_the_fields_in_the_form_and_clicks_on_save_button()
 			throws InterruptedException {
-		classAdd.enterInvalidDatas("Python101", "1234", "12356", "February", "2025", "24", "Kevin Thomas");
+		classAdd.enterInvalidDatas("Python101", "1234", "12356", "February", "2025", "25", "Kevin Thomas");
 	}
 
 	@Then("Admin gets error message and class is not created")
@@ -165,13 +165,13 @@ public class ClassStep {
 
 	@When("Admin clicks save button in the class pop up window")
 	public void admin_clicks_save_button_in_the_class_pop_up_window() throws InterruptedException {
-		classAdd.clickSaveIcon("Micro service-01", "qeeret", "Testing", "February", "2025", "24", "arunasel S");
+		classAdd.clickSaveIcon("Micro service-01", "qeeret", "Testing", "February", "2025", "25", "arunasel S");
 	}
 
 	@Then("Admin can see the class details popup closed and adding new class")
 	public void admin_can_see_the_class_details_popup_closed_and_adding_new_class() {
 		Assert.assertTrue(
-				classAdd.verifyValuesSaved("Micro service-01", "qeeret", "Testing", "Active", "2/24/25", "arunasel S"));
+				classAdd.verifyValuesSaved("Micro service-01", "qeeret", "Testing", "Active", "2/25/25", "arunasel S"));
 	}
 
 //===========================================Class Edit===============================================	
@@ -185,7 +185,7 @@ public class ClassStep {
 
 	@When("Admin clicks on the edit icon")
 	public void admin_clicks_on_the_edit_icon() {
-		classEdit.clickEditIcon("Micro service-01", "JJ-Github", "Testing", "Active", "2/24/25", "arunasel S");
+		classEdit.clickEditIcon("Micro service-01", "JJ-Github", "Testing", "Active", "2/25/25", "arunasel S");
 	}
 
 	@Then("A new pop up with class details appears")
