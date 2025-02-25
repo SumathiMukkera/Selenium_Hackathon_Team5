@@ -31,7 +31,7 @@
                   <tr>
                     <td>
                       <span class="bg-failed" style="margin-right:10px;padding:0px 5px;">FAILED</span>
-                      <span style="">Feb 25, 2025, 11:16:25 AM &middot; 13s</span>
+                      <span style="">Feb 25, 2025, 11:28:39 AM &middot; 25s</span>
                     </td>
                   </tr>
                 </table>
@@ -52,15 +52,15 @@
 	            <tr>
 	              <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;">Tests</p>
-	                <h1 style="font-size:34px;">1</h1>
+	                <h1 style="font-size:34px;">6</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#79B530">Passed</p>
-	                <h1 style="font-size:34px;">0</h1>
+	                <h1 style="font-size:34px;">3</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e64b5d">Failed</p>
-	                <h1 style="font-size:34px;">1</h1>
+	                <h1 style="font-size:34px;">3</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e6e04c">Skipped</p>
@@ -95,6 +95,36 @@
                   </tr>
                   <tr style="height:10px;"></tr>
                   <tr>
+                    <td width="350">@testlastpage</td>
+                      <td width="23"></td>
+                      <td style="" width="60">0</td>
+                      <td class="padding" width="10"></td>
+                      <td style="" width="60">1</td>
+                      <td class="padding" width="10"></td>
+                      <td style="" width="60">0</td>
+                  </tr>
+                  <tr style="height:10px;"></tr>
+                  <tr>
+                    <td width="350">@testdocker</td>
+                      <td width="23"></td>
+                      <td style="" width="60">1</td>
+                      <td class="padding" width="10"></td>
+                      <td style="" width="60">0</td>
+                      <td class="padding" width="10"></td>
+                      <td style="" width="60">0</td>
+                  </tr>
+                  <tr style="height:10px;"></tr>
+                  <tr>
+                    <td width="350">@test1</td>
+                      <td width="23"></td>
+                      <td style="" width="60">0</td>
+                      <td class="padding" width="10"></td>
+                      <td style="" width="60">1</td>
+                      <td class="padding" width="10"></td>
+                      <td style="" width="60">0</td>
+                  </tr>
+                  <tr style="height:10px;"></tr>
+                  <tr>
                     <td width="350">@test2</td>
                       <td width="23"></td>
                       <td style="" width="60">0</td>
@@ -124,10 +154,198 @@
                       <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
                         Feature: Program Pagination
                       <p style="font-size:12px;margin:0;">
-                        <span>Feb 25, 2025, 11:16:39 AM / 11ms</span>
+                        <span>Feb 25, 2025, 11:29:04 AM / 10ms</span>
                       </p>
                     </td>
                   </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario: Verify Admin is able to click Next page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on home page after Login
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on Program page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When Admin clicks Next page link on the program table
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then Admin should see the Pagination has Next active link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario: Verify Admin is able to click Last page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on home page after Login
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on Program page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When Admin clicks Last page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then Admin should see the last page record on the table with Next page link are disabled
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario: Verify Admin is able to click Previous page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on home page after Login
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on last page of Program page table
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When Admin clicks Previous page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then Admin should see the previous page record on the table with pagination has previous page link
+<pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.ProgramPagination.admin_should_see_the_previous_page_record_on_the_table_with_pagination_has_previous_page_link(ProgramPagination.java:100)
+	at ✽.Admin should see the previous page record on the table with pagination has previous page link(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:22)
+</pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario: Verify Admin is able to click First page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on home page after Login
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on Previous Program page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When Admin clicks First page link
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then Admin should see the very first page record on the table with Previous page link are disabled
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario: Verify pagination when there are no records
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given Admin is on home page after Login
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When Admin clicks Program on the navigation bar
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then Admin should not see any pagination icons and message "No records found"
+<pre>java.lang.AssertionError: No records found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.ProgramPagination.admin_should_not_see_any_pagination_icons_and_message(ProgramPagination.java:135)
+	at ✽.Admin should not see any pagination icons and message "No records found"(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:32)
+</pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
                   <tr>
                     <td width="650px" class="bg-failed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
@@ -153,13 +371,9 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then Admin should see pagination icons disabled
-<pre>java.lang.AssertionError: expected [true] but found [true]
+<pre>java.lang.AssertionError: Test failed because rows count is > 5
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:644)
-	at stepDefinitions.ProgramPagination.admin_should_see_pagination_icons_disabled(ProgramPagination.java:149)
+	at stepDefinitions.ProgramPagination.admin_should_see_pagination_icons_disabled(ProgramPagination.java:155)
 	at ✽.Admin should see pagination icons disabled(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:37)
 </pre>
                       </p>

@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Selenium-Hackathon-Team5</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 13s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-02-25 11:16:25 AM</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-02-25 11:16:39 AM</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 25s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-02-25 11:28:39 AM</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-02-25 11:29:04 AM</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -63,8 +63,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp2">0</span> Passed,
-                <span id="sf2">1</span> Failed,
+                <span id="sp2">3</span> Passed,
+                <span id="sf2">3</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -80,8 +80,8 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">2</span> Passed,
-                  <span id="sf3">1</span> Failed,
+                  <span id="sp3">19</span> Passed,
+                  <span id="sf3">3</span> Failed,
                   <span id="ss3">0</span> Skipped
                 </div>
               </div>
@@ -110,11 +110,32 @@
               </thead>
               <tbody>
                   <tr>
+                    <td><a href="#" class="secondary tag">@testlastpage</a></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0ms</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#" class="secondary tag">@testdocker</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0ms</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#" class="secondary tag">@test1</a></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0ms</td>
+                  </tr>
+                  <tr>
                     <td><a href="#" class="secondary tag">@test2</a></td>
                     <td>1</td>
                     <td>0</td>
                     <td>1</td>
-                    <td>4ms</td>
+                    <td>0ms</td>
                   </tr>
               </tbody>
             </table>
@@ -144,18 +165,214 @@
             <div class="col-4">
               <h6 class="mb-3 testname fs-6 failed">Feature: Program Pagination</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 11ms</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 10ms</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-02-25 11:16:39 AM</span>
+                  2025-02-25 11:29:04 AM</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-02-25 11:16:39 AM</span>
+                  2025-02-25 11:29:04 AM</span>
               </div>
                 <div class="my-2">
+                    <span class="badge rounded-pill text-bg-secondary">@test1</span>
+                    <span class="badge rounded-pill text-bg-secondary">@testdocker</span>
                     <span class="badge rounded-pill text-bg-secondary">@test2</span>
+                    <span class="badge rounded-pill text-bg-secondary">@testlastpage</span>
                 </div>
               
             </div>
             <div class="col-8">
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario: Verify Admin is able to click Next page link</span>
+                      </div>
+                      <div>
+                          <span class="tag-list">
+                              <span class="badge rounded-pill text-bg-secondary">@testdocker</span>
+                          </span>
+                          <span class="mx-1">&middot;</span>
+                        <span class="badge text-dark bg-light">0ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on home page after Login</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on Program page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When Admin clicks Next page link on the program table</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then Admin should see the Pagination has Next active link</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario: Verify Admin is able to click Last page link</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">0ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on home page after Login</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on Program page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When Admin clicks Last page link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then Admin should see the last page record on the table with Next page link are disabled</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result failed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario: Verify Admin is able to click Previous page link</span>
+                      </div>
+                      <div>
+                          <span class="tag-list">
+                              <span class="badge rounded-pill text-bg-secondary">@testlastpage</span>
+                          </span>
+                          <span class="mx-1">&middot;</span>
+                        <span class="badge text-dark bg-light">0ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on home page after Login</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on last page of Program page table</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When Admin clicks Previous page link</span>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then Admin should see the previous page record on the table with pagination has previous page link</span>
+            <pre class="py-2 mt-2">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.ProgramPagination.admin_should_see_the_previous_page_record_on_the_table_with_pagination_has_previous_page_link(ProgramPagination.java:100)
+	at ✽.Admin should see the previous page record on the table with pagination has previous page link(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:22)
+</pre>
+        </div>
+  </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/988e316d-dea2-47cc-bac9-9b5786941542.png" />
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario: Verify Admin is able to click First page link</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">0ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on home page after Login</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on Previous Program page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When Admin clicks First page link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then Admin should see the very first page record on the table with Previous page link are disabled</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result failed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario: Verify pagination when there are no records</span>
+                      </div>
+                      <div>
+                          <span class="tag-list">
+                              <span class="badge rounded-pill text-bg-secondary">@test1</span>
+                          </span>
+                          <span class="mx-1">&middot;</span>
+                        <span class="badge text-dark bg-light">0ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given Admin is on home page after Login</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When Admin clicks Program on the navigation bar</span>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then Admin should not see any pagination icons and message "No records found"</span>
+            <pre class="py-2 mt-2">java.lang.AssertionError: No records found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.ProgramPagination.admin_should_not_see_any_pagination_icons_and_message(ProgramPagination.java:135)
+	at ✽.Admin should not see any pagination icons and message "No records found"(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:32)
+</pre>
+        </div>
+  </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/ce37ef8e-40e4-450c-8d70-9af74880b78a.png" />
+                          </div>
+                      </div>
+                  </div>
+                </div>
                 <div class="card mb-3 result failed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -168,7 +385,7 @@
                               <span class="badge rounded-pill text-bg-secondary">@test2</span>
                           </span>
                           <span class="mx-1">&middot;</span>
-                        <span class="badge text-dark bg-light">4ms</span>
+                        <span class="badge text-dark bg-light">0ms</span>
                       </div>
                     </div>
                     
@@ -184,20 +401,16 @@
         <div class="mt-1 pb-1">
               <i class="bi bi-exclamation-octagon-fill text-danger"></i>
           <span class="ms-2">Then Admin should see pagination icons disabled</span>
-            <pre class="py-2 mt-2">java.lang.AssertionError: expected [true] but found [true]
+            <pre class="py-2 mt-2">java.lang.AssertionError: Test failed because rows count is > 5
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:644)
-	at stepDefinitions.ProgramPagination.admin_should_see_pagination_icons_disabled(ProgramPagination.java:149)
+	at stepDefinitions.ProgramPagination.admin_should_see_pagination_icons_disabled(ProgramPagination.java:155)
 	at ✽.Admin should see pagination icons disabled(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:37)
 </pre>
         </div>
   </div>
                       <div class="row mt-3">
                           <div class="embed col-2 mb-1">
-                            <img src="resources/b6fa98d2-e37a-4253-aa25-99ecaea00ff9.png" />
+                            <img src="resources/940ca956-af67-4624-986b-cd9b0cff0a0f.png" />
                           </div>
                       </div>
                   </div>
@@ -216,16 +429,16 @@
       { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(221, 91, 96)' }
     ];
-      const stats2Annotation = {'total': 1, 'passed': 0};
+      const stats2Annotation = {'total': 6, 'passed': 3};
       const stats2 = [
-        { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 3, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 3, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(221, 91, 96)' }
       ];
-      const stats3Annotation = {'total': 3, 'passed': 2};
+      const stats3Annotation = {'total': 22, 'passed': 19};
       const stats3 = [
-        { result: 'Passed', count: 2, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 19, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 3, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(221, 91, 96)' }
       ];
      
@@ -298,24 +511,24 @@
           <table class="table">
             <tbody>
                 <tr>
-                  <td>s</td>
-                  <td>Toggle skipped tests</td>
+                  <td>f</td>
+                  <td>Toggle failed tests</td>
                 </tr>
                 <tr>
                   <td>p</td>
                   <td>Toggle passed tests</td>
                 </tr>
                 <tr>
-                  <td>f</td>
-                  <td>Toggle failed tests</td>
-                </tr>
-                <tr>
-                  <td>esc</td>
-                  <td>Reset all filters</td>
+                  <td>s</td>
+                  <td>Toggle skipped tests</td>
                 </tr>
                 <tr>
                   <td>L</td>
                   <td>Toggle theme (light/dark)</td>
+                </tr>
+                <tr>
+                  <td>esc</td>
+                  <td>Reset all filters</td>
                 </tr>
             </tbody>
           </table>

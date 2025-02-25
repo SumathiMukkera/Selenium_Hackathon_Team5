@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T11:28:39 CST" name="Default suite" finished-at="2025-02-25T11:29:05 CST" duration-ms="25746">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-25T11:28:39 CST" name="Default test" finished-at="2025-02-25T11:29:05 CST" duration-ms="25746">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:28:39 CST" name="setUpClass" finished-at="2025-02-25T11:28:48 CST" duration-ms="8908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b13a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:28:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-25T11:29:02 CST" duration-ms="14311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Admin is able to click Last page link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Program Pagination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:28:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-25T11:29:04 CST" duration-ms="15711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Admin is able to click Next page link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Program Pagination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:28:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-25T11:28:59 CST" duration-ms="11483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Admin is able to click First page link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Program Pagination"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:28:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-25T11:29:02 CST" duration-ms="13812" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify pagination when there are less than 5 records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Program Pagination"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed because rows count is > 5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed because rows count is > 5
+at org.testng.Assert.fail(Assert.java:111)
+at stepDefinitions.ProgramPagination.admin_should_see_pagination_icons_disabled(ProgramPagination.java:155)
+at ✽.Admin should see pagination icons disabled(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:28:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-25T11:29:04 CST" duration-ms="16551" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Admin is able to click Previous page link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Program Pagination"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at stepDefinitions.ProgramPagination.admin_should_see_the_previous_page_record_on_the_table_with_pagination_has_previous_page_link(ProgramPagination.java:100)
+at ✽.Admin should see the previous page record on the table with pagination has previous page link(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:28:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-25T11:28:59 CST" duration-ms="10676" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify pagination when there are no records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Program Pagination"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No records found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No records found expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepDefinitions.ProgramPagination.admin_should_not_see_any_pagination_icons_and_message(ProgramPagination.java:135)
+at ✽.Admin should not see any pagination icons and message "No records found"(file:///C:/Users/rakhy/Selenium_Hackathon/Selenium_Hackathon/Selenium_Hackathon_Team5/src/test/resources/featureFiles/ProgramPagination.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@52e7a6b2]" started-at="2025-02-25T11:29:04 CST" name="tearDownClass" finished-at="2025-02-25T11:29:05 CST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

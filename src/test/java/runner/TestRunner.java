@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import utilitities.ConfigReader;
 
-@CucumberOptions(features = "src/test/resources/featureFiles",
+@CucumberOptions(features = "src/test/resources/featureFiles/ProgramPagination.feature",
               glue = { "stepDefinitions", "hooks" }, 
               plugin = {"pretty", "html:src/test/resources/cucumber-reports.html", "json:src/test/resources/cucumber-reports.json",
 		"com.aventstack.chaintest.plugins.ChainTestCucumberListener:",

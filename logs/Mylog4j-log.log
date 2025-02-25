@@ -142,4 +142,13 @@
    [INFO ]2025-02-2423:23:05.247[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to save the program details =====
    [INFO ]2025-02-2423:23:11.246[main]utilitities.LoggerLoad1)-Scenario passed: Verify close window with "X" =====
 
+   [INFO ]2025-02-2511:28:56.779[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are no records =====
+   [INFO ]2025-02-2511:28:58.014[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are less than 5 records =====
+   [INFO ]2025-02-2511:28:58.080[TestNG-PoolService-4]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click First page link =====
+   [ERROR]2025-02-2511:28:58.729[TestNG-PoolService-5]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are no records
+   [ERROR]2025-02-2511:28:59.784[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are less than 5 records
+   [INFO ]2025-02-2511:29:00.756[TestNG-PoolService-2]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Last page link =====
+   [INFO ]2025-02-2511:29:01.559[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
+   [INFO ]2025-02-2511:29:02.149[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Previous page link =====
+   [ERROR]2025-02-2511:29:04.634[TestNG-PoolService-3]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click Previous page link
    
