@@ -13,7 +13,7 @@ import pageObjectRepository.*;
 
 public class ProgramEditStep {
 	WebDriver driver = DriverFactory.getDriver();
-	ProgramPage ProgramPage = new ProgramPage(driver);
+	ProgramValidation ProgramPage = new ProgramValidation(driver);
 	ProgramEditPage ProgramEditPage = new ProgramEditPage(driver);
 	ProgramAddNewPage ProgramAddNewPage = new ProgramAddNewPage(driver);
 
@@ -96,18 +96,23 @@ public class ProgramEditStep {
 		Assert.assertTrue(ProgramEditPage.isProgramNameDisplayed());
 		Assert.assertTrue(ProgramEditPage.isProgramDescriptionDisplayed());
 	}
-	@When("Admin can change the status of the program and click on save button {string} and {int}")
-	public void admin_can_change_the_status_of_the_program_and_click_on_save_button_and(String string, Integer int1) {
-	   driver.navigate().refresh();
-	   ProgramEditPage.clickEditProgramButton();
-	   ProgramEditPage.changeStatus();
-	   ProgramEditPage.clickSaveOption();
-	}
-	@Then("Status updated can be viewed by the Admin")
-	public void status_updated_can_be_viewed_by_the_admin() {
-	    
+
+	@When("Admin can change the status of the program and click on save button")
+	public void admin_can_change_the_status_of_the_program_and_click_on_save_button_and() {
+		driver.navigate().refresh();
+
+		ProgramEditPage.clickEditProgramButton();
+		ProgramEditPage.changeStatus(driver);
+
+		ProgramEditPage.clickSaveOption();
 	}
 
-	
+	@Then("Status updated can be viewed by the Admin")
+	public void status_updated_can_be_viewed_by_the_admin() {
+//		String expectedstatus= ProgramEditPage.getCurrentStatusFromPopup();
+//		String actualstatus=ProgramEditPage.getRowStatus();
+//		Assert.assertEquals(actualstatus, expectedstatus, "Text did not match");
+
+	}
 
 }

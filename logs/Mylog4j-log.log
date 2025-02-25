@@ -1,6 +1,7 @@
 [INFO ]2025-02-2416:38:06.542[TestNG-PoolService-1]utilitities.LoggerLoad1)-===== Starting Scenario: Verify logout function =====
    [INFO ]2025-02-2420:23:18.706[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify logout function =====
    [INFO ]2025-02-2420:39:17.240[main]utilitities.LoggerLoad1)-Scenario passed: Verify logout function =====
+
    [INFO ]2025-02-2421:45:24.121[main]utilitities.LoggerLoad1)-Scenario passed: Verify logout function =====
    [INFO ]2025-02-2509:36:55.271[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Next page link =====
    [INFO ]2025-02-2509:36:55.271[TestNG-PoolService-6]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are less than 5 records =====
@@ -80,4 +81,65 @@
    [ERROR]2025-02-2511:14:53.306[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are no records
    [INFO ]2025-02-2511:16:38.284[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario passed: Verify pagination when there are less than 5 records =====
    [ERROR]2025-02-2511:16:39.164[TestNG-PoolService-1]utilitities.LoggerLoad1)-Scenario Failed: Verify pagination when there are less than 5 records
+
+   [INFO ]2025-02-2422:13:42.571[main]utilitities.LoggerLoad1)-Scenario passed: Verify logout function =====
+   [INFO ]2025-02-2423:12:27.049[main]utilitities.LoggerLoad1)-Scenario passed: Verify that Admin is able to navigate to Program page =====
+   [INFO ]2025-02-2423:12:34.703[main]utilitities.LoggerLoad1)-Scenario passed: Verify Logout displayed in menu bar =====
+   [INFO ]2025-02-2423:12:39.258[main]utilitities.LoggerLoad1)-Scenario passed: Verify heading in menu bar =====
+   [INFO ]2025-02-2423:12:41.920[main]utilitities.LoggerLoad1)-Scenario passed: Verify other pages name displayed in menu bar =====
+   [INFO ]2025-02-2423:12:49.298[main]utilitities.LoggerLoad1)-Scenario passed: Verify heading in manage program =====
+   [INFO ]2025-02-2423:12:54.556[main]utilitities.LoggerLoad1)-Scenario passed: Verify view details of programs =====
+   [INFO ]2025-02-2423:12:58.297[main]utilitities.LoggerLoad1)-Scenario passed: Verify the Multiple Delete button state =====
+   [INFO ]2025-02-2423:13:07.560[main]utilitities.LoggerLoad1)-Scenario passed: Verify the Search button =====
+   [INFO ]2025-02-2423:13:12.732[main]utilitities.LoggerLoad1)-Scenario passed: Verify column header name of data table =====
+   [INFO ]2025-02-2423:13:15.529[main]utilitities.LoggerLoad1)-Scenario passed: Verify checkbox default state beside Program Name column header =====
+   [INFO ]2025-02-2423:13:22.405[main]utilitities.LoggerLoad1)-Scenario passed: Verify checkboxes default state beside each Program names in the data table =====
+   [INFO ]2025-02-2423:13:28.405[main]utilitities.LoggerLoad1)-Scenario passed: Verify Sort icon in manage program =====
+   [INFO ]2025-02-2423:13:34.294[main]utilitities.LoggerLoad1)-Scenario passed: Verify edit and delete icon in manage program =====
+   [INFO ]2025-02-2423:13:39.731[main]utilitities.LoggerLoad1)-Scenario passed: Verify pagination icons below data table in manage program =====
+   [INFO ]2025-02-2423:13:43.359[main]utilitities.LoggerLoad1)-Scenario passed: Verify footer message in manage program =====
+   [INFO ]2025-02-2423:14:37.120[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program name =====
+   [INFO ]2025-02-2423:14:43.055[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results found for program description =====
+   [ERROR]2025-02-2423:14:54.838[main]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to search results found for program description
+   [INFO ]2025-02-2423:14:59.276[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search results not found =====
+   [INFO ]2025-02-2423:15:25.889[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to search with partial program name =====
+   [INFO ]2025-02-2423:15:30.837[main]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Name =====
+   [INFO ]2025-02-2423:15:33.503[main]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Description =====
+   [INFO ]2025-02-2423:15:40.307[main]utilitities.LoggerLoad1)-Scenario passed: Verify ascending and descending sorting of Program Status =====
+   [INFO ]2025-02-2423:16:02.993[main]utilitities.LoggerLoad1)-Scenario passed: Verify Edit option =====
+   [INFO ]2025-02-2423:16:07.775[main]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [INFO ]2025-02-2423:16:14.290[main]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [INFO ]2025-02-2423:16:21.772[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Cancel =====
+   [INFO ]2025-02-2423:16:27.293[main]utilitities.LoggerLoad1)-Scenario passed: Verify close the window with "X" =====
+   [INFO ]2025-02-2423:16:32.936[main]utilitities.LoggerLoad1)-Scenario passed: Verify edit Program Name =====
+   [INFO ]2025-02-2423:16:37.074[main]utilitities.LoggerLoad1)-Scenario passed: Verify edit Description =====
+   [INFO ]2025-02-2423:16:44.576[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click Save =====
+   [INFO ]2025-02-2423:18:38.941[main]utilitities.LoggerLoad1)-Scenario passed: Verify delete feature =====
+   [INFO ]2025-02-2423:18:44.134[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [INFO ]2025-02-2423:18:49.330[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [INFO ]2025-02-2423:19:15.512[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [INFO ]2025-02-2423:19:31.445[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2423:19:46.847[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to select multiple programs =====
+   [INFO ]2025-02-2423:19:52.613[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to delete Multiple programs =====
+   [INFO ]2025-02-2423:19:58.111[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'Yes' =====
+   [INFO ]2025-02-2423:20:03.517[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to deleted program =====
+   [ERROR]2025-02-2423:20:16.371[main]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to deleted program
+   [INFO ]2025-02-2423:20:19.799[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to click 'No' =====
+   [ERROR]2025-02-2423:20:32.010[main]utilitities.LoggerLoad1)-Scenario Failed: Verify Admin is able to click 'No'
+   [INFO ]2025-02-2423:20:35.630[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to close the window with "X" =====
+   [INFO ]2025-02-2423:22:07.034[main]utilitities.LoggerLoad1)-Scenario passed: Verify add New Program =====
+   [INFO ]2025-02-2423:22:13.088[main]utilitities.LoggerLoad1)-Scenario passed: Verify title of the pop up window =====
+   [INFO ]2025-02-2423:22:17.689[main]utilitities.LoggerLoad1)-Scenario passed: Verify mandatory fields with red asterisk mark =====
+   [ERROR]2025-02-2423:22:18.982[main]utilitities.LoggerLoad1)-Scenario Failed: Verify mandatory fields with red asterisk mark
+   [INFO ]2025-02-2423:22:20.935[main]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2423:22:27.668[main]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2423:22:34.763[main]utilitities.LoggerLoad1)-Scenario passed: Verify empty form submission for mandatory fields =====
+   [INFO ]2025-02-2423:22:40.126[main]utilitities.LoggerLoad1)-Scenario passed: Verify cancel button =====
+   [INFO ]2025-02-2423:22:45.503[main]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2423:22:48.371[main]utilitities.LoggerLoad1)-Scenario passed: Verify text entry in different fields =====
+   [INFO ]2025-02-2423:22:55.933[main]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2423:23:00.973[main]utilitities.LoggerLoad1)-Scenario passed: Verify selecting a status option =====
+   [INFO ]2025-02-2423:23:05.247[main]utilitities.LoggerLoad1)-Scenario passed: Verify Admin is able to save the program details =====
+   [INFO ]2025-02-2423:23:11.246[main]utilitities.LoggerLoad1)-Scenario passed: Verify close window with "X" =====
+
    

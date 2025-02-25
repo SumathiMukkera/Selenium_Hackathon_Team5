@@ -1,9 +1,6 @@
 Feature: Add New Batch
 Background: Admin is on the Batch page
-   Given User is on the login page
-   And User enters valid credentials "sdetnumpyninja@gmail.com" and "Feb@2025"
-   And User selects the Admin role
-   And User clicks on login
+   Given Admin is on home page after Login
 
    Scenario: Verify sub menu displayed in batch menu bar
       Given Admin is on the home page

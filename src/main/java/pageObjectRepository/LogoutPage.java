@@ -3,7 +3,9 @@ package pageObjectRepository;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import utilitities.ConfigReader;
 
@@ -40,7 +42,9 @@ public class LogoutPage {
 	}
 	
 	public void clickLogout() {
-		driver.findElement(logOut).click();
+		WebElement element = driver.findElement(logOut);
+		JavascriptExecutor ex = (JavascriptExecutor)driver;
+		ex.executeScript("arguments[0].click();", element);
 	}
 	
 	public boolean logoutbutton() {

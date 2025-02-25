@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import java.util.concurrent.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import driverFactory.DriverFactory;
 import io.cucumber.java.en.Given;
@@ -12,7 +13,7 @@ import com.github.javafaker.Faker;
 
 public class ProgramAddNewStep {
 	WebDriver driver = DriverFactory.getDriver();
-	ProgramPage ProgramPage = new ProgramPage(driver);
+	ProgramValidation ProgramPage = new ProgramValidation(driver);
 	ProgramAddNewPage ProgramAddNewPage = new ProgramAddNewPage(driver);
 	private Faker faker = new Faker();
 
@@ -39,7 +40,7 @@ public class ProgramAddNewStep {
 	@Then("Admin should see program sub menu in menu bar as {string}")
 	public void Admin_should_see_program_sub_menu(String expectedtext) {
 		
-		String actualtext = ProgramAddNewPage.getTextOfAddNewProgram();
+		WebElement actualtext = ProgramAddNewPage.getTextOfAddNewProgram();
 		Assert.assertEquals(actualtext, expectedtext, "text did not matched");
 	}
 
@@ -108,16 +109,36 @@ public class ProgramAddNewStep {
 	}
 
 
-	@When("Admin searches with newly created {string}")
-	public void admin_searches_with_newly_created_program(String programName) {
+//	@When("Admin searches with newly created {string}")
+//	public void admin_searches_with_newly_created_program(String programName) {
+//		
+//		generatedName = faker.name().firstName();
+//		ProgramAddNewPage.enterName(generatedName);
+//		generatedDescription = faker.lorem().sentence();
+//		ProgramAddNewPage.enterDescription(generatedDescription);
+//		ProgramAddNewPage.clickActiveRadioButton();
+//		ProgramAddNewPage.popUpSaveButton();
+//
+//		ProgramAddNewPage.searchProgram(programName);
+//
+//	}
+	@When("Admin searches with newly created programName")
+	public void admin_searches_with_newly_created_program() {
+		
+		generatedName = faker.name().firstName();
+		ProgramAddNewPage.enterName(generatedName);
+		generatedDescription = faker.lorem().sentence();
+		ProgramAddNewPage.enterDescription(generatedDescription);
+		ProgramAddNewPage.clickActiveRadioButton();
+		ProgramAddNewPage.popUpSaveButton();
 
-		ProgramAddNewPage.searchProgram(programName);
+		ProgramAddNewPage.searchProgram(generatedName);
 
 	}
 
-	@Then("Records of the newly created {string} is displayed and match the data entered")
-	public void records_of_newly_created_program_is_displayed(String ProgramName) {
-		Assert.assertTrue(ProgramAddNewPage.isProgramDisplayed(ProgramName));
+	@Then("Records of the newly created programname is displayed and match the data entered")
+	public void records_of_newly_created_program_is_displayed() {
+		Assert.assertTrue(ProgramAddNewPage.isProgramDisplayed(generatedName));
 
 	}
 
