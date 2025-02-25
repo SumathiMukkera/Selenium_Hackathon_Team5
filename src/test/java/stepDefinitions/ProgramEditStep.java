@@ -109,9 +109,9 @@ public class ProgramEditStep {
 
 	@Then("Status updated can be viewed by the Admin")
 	public void status_updated_can_be_viewed_by_the_admin() {
-//		String expectedstatus= ProgramEditPage.getCurrentStatusFromPopup();
-//		String actualstatus=ProgramEditPage.getRowStatus();
-//		Assert.assertEquals(actualstatus, expectedstatus, "Text did not match");
+		String expectedstatus= ProgramEditPage.getCurrentStatusFromPopup();
+		String actualstatus=ProgramEditPage.getRowStatus();
+		Assert.assertEquals(actualstatus, expectedstatus, "Text did not match");
 
 	}
 
