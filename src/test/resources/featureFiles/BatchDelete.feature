@@ -1,10 +1,7 @@
 Feature: Delete batch validation
 
     Background: Add New Batch details pop up
-        Given User is on the login page
-        And User enters valid credentials "sdetnumpyninja@gmail.com" and "Feb@2025"
-        And User selects the Admin role
-        And User clicks on login
+		Given Admin is on home page after Login
 
     Scenario: validate delete Icon on any row
     Given Admin is on the batch page

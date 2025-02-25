@@ -1,10 +1,7 @@
 Feature: Batch Pagination
 
 Background: Admin is on the batch page
-    Given User is on the login page
-    And User enters valid credentials "sdetnumpyninja@gmail.com" and "Feb@2025"
-    And User selects the Admin role
-    And User clicks on login
+  	Given Admin is on home page after Login
 
     Scenario: Validate next page link
     Given Admin is on the batch page

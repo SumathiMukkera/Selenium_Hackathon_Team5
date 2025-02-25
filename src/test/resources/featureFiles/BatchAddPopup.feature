@@ -1,10 +1,7 @@
 Feature: Batch Functionality
 Background: Add New Batch details pop up
-    Given User is on the login page
-    And User enters valid credentials "sdetnumpyninja@gmail.com" and "Feb@2025"
-    And User selects the Admin role
-    And User clicks on login
-
+  Given Admin is on home page after Login
+  
     Scenario Outline: Validate all the fields exist in pop up
     Given Admin clicks on "Add New Batch" under the Batch menu bar
     When Admin checks the field "<fieldName>" is enabled

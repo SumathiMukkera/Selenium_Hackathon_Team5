@@ -40,7 +40,9 @@ public class LogoutPage {
 	}
 	
 	public void clickLogout() {
-		driver.findElement(logOut).click();
+		WebElement element = driver.findElement(logOut);
+		JavascriptExecutor ex = (JavascriptExecutor)driver;
+		ex.executeScript("arguments[0].click();", element);
 	}
 	
 	public boolean logoutbutton() {
