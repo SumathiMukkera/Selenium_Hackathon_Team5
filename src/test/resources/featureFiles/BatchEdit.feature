@@ -1,10 +1,7 @@
 Feature: Batch Functionality
 
 Background: Edit icon Validation
-    Given User is on the login page
-    And User enters valid credentials "sdetnumpyninja@gmail.com" and "Feb@2025"
-    And User selects the Admin role
-    And User clicks on login
+Given Admin is on home page after Login
 
     Scenario: Validate Edit icon feature in any row
     Given Admin is on the batch page
