@@ -271,8 +271,8 @@ public class ClassStep {
 		classPage.clickLastPage();
 	}
 
-	@Then("Admin should see the last page record on the table with Next page link are disabled")
-	public void admin_should_see_the_last_page_record_on_the_table_with_next_page_link_are_disabled() {
+	@Then("Admin should see the last page record on the table with Next page link are disabled in the class manage page")
+	public void admin_should_see_the_last_page_record_on_the_table_with_next_page_link_are_disabled_in_the_class_manage_page() {
 		classPage.checkAdminSeeLastPage();
 	}
 
