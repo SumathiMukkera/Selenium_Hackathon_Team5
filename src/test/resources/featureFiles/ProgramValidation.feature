@@ -22,6 +22,7 @@ Given Admin is on home page after Login
     Scenario: Verify other pages name displayed in menu bar
     When Admin clicks Program on the navigation bar
     Then Admin should see the page names as in order "Home Program Batch Class"
+   
     @v5
     Scenario: Verify heading in manage program
     When Admin clicks Program on the navigation bar
@@ -32,7 +33,7 @@ Given Admin is on home page after Login
     When Admin clicks Program on the navigation bar
     Then Admin should able to see Program name, description, and status for each program
 
-    @v7
+    @v7 
     Scenario: Verify the Multiple Delete button state
     When Admin clicks Program on the navigation bar
     Then Admin should see a Delete button in left top is disabled
@@ -75,7 +76,6 @@ Given Admin is on home page after Login
     Scenario: Verify footer message in manage program
     When Admin clicks Program on the navigation bar
     Then Admin should see the footer as In total there are z programs.z- Total number of records
- 
  
  
    

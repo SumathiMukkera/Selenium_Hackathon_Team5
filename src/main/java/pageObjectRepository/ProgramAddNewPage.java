@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeoutException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
@@ -66,24 +67,32 @@ public class ProgramAddNewPage {
 		addnewprogram.click();
 	}
 
-	public String getTextOfAddNewProgram() {
-
-		wait.until(ExpectedConditions.visibilityOf(addnewprogram));
-
-		try {
-			JavascriptExecutor js = (JavascriptExecutor) driver;
-			js.executeScript("var overlays = document.querySelectorAll('div.cdk-overlay-backdrop');"
-					+ "for(var i=0; i<overlays.length; i++) { overlays[i].parentNode.removeChild(overlays[i]); }");
-		} catch (Exception e) {
-			System.out.println("No overlay found or could not remove overlay: " + e.getMessage());
-		}
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		String text = (String) js.executeScript("return arguments[0].innerText;", addnewprogram);
-		return text;
+//	public String getTextOfAddNewProgram() {
+//
+//		wait.until(ExpectedConditions.visibilityOf(addnewprogram));
+//
+//		try {
+//			JavascriptExecutor js = (JavascriptExecutor) driver;
+//			js.executeScript("var overlays = document.querySelectorAll('div.cdk-overlay-backdrop');"
+//					+ "for(var i=0; i<overlays.length; i++) { overlays[i].parentNode.removeChild(overlays[i]); }");
+//		} catch (Exception e) {
+//			System.out.println("No overlay found or could not remove overlay: " + e.getMessage());
+//		}
+//
+//		JavascriptExecutor js = (JavascriptExecutor) driver;
+//		String text = (String) js.executeScript("return arguments[0].innerText;", addnewprogram);
+//		return text;
+//	}
+	public void clickUsingJavascriptExecutor(WebElement element) {
+		JavascriptExecutor ex = (JavascriptExecutor)driver;
+		ex.executeScript("arguments[0].click();", element);
 	}
-
-
+	public WebElement getTextOfAddNewProgram() {
+		JavascriptExecutor ex = (JavascriptExecutor)driver;
+		ex.executeScript("arguments[0].click();", addnewprogram);
+		return addnewprogram;
+		
+	}
 
 	public boolean newClassPopUpBox() {
 
@@ -169,24 +178,39 @@ public class ProgramAddNewPage {
 		}
 	}
 
-	public void searchProgram(String programName) {
-		wait.until(ExpectedConditions.visibilityOf(searchBox)).clear();
-		searchBox.sendKeys(programName);
-	}
+//	public void searchProgram(String programName) {
+//		wait.until(ExpectedConditions.visibilityOf(searchBox)).clear();
+//		searchBox.sendKeys(programName);
+//	}
+//
+//	public boolean isProgramDisplayed(String generatedName) {
+//		wait.until(ExpectedConditions.visibilityOfAllElements(programNameList));
+//
+//		for (int i = 0; i < programNameList.size(); i++) {
+//			String actualProgramName = programNameList.get(i).getText().trim();
+//			System.out.println("actualProgramName is" + actualProgramName);
+//
+//			if (actualProgramName.equals(generatedName)) {
+//				return true;
+//			}
+//		}
+//		return false;
+//	}
+	 public  void searchProgram(String name) {
+	        
+	        searchBox.clear();
+	        searchBox.sendKeys(name);
+	        
+	    }
 
-	public boolean isProgramDisplayed(String ProgramName) {
-		wait.until(ExpectedConditions.visibilityOfAllElements(programNameList));
-
-		for (int i = 0; i < programNameList.size(); i++) {
-			String actualProgramName = programNameList.get(i).getText().trim();
-			System.out.println("actualProgramName is" + actualProgramName);
-
-			if (actualProgramName.equals(ProgramName)) {
-				return true;
-			}
-		}
-		return false;
-	}
+	    public  boolean isProgramDisplayed(String name) {
+	        try {
+	           
+	            return driver.findElement(By.xpath("//table//td[contains(text(),'" + name + "')]")).isDisplayed();
+	        } catch (NoSuchElementException e) {
+	            return false;
+	        }
+	    }
 
 	public void verifyXButton() {
 		x.click();
@@ -211,9 +235,9 @@ public class ProgramAddNewPage {
 	}
 
 	public String getSuccessMessage() {
-		
-		 wait.until(ExpectedConditions.visibilityOf(successMessage));
-		 return successMessage.getText().trim().replaceAll("\\s+", " ");
+
+		wait.until(ExpectedConditions.visibilityOf(successMessage));
+		return successMessage.getText().trim().replaceAll("\\s+", " ");
 	}
 
 	public void clickActiveRadioButton() {
