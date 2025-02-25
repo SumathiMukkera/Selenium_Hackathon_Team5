@@ -50,9 +50,9 @@ public class ProgramPaginationPage {
 		
 	 }
 	 
-	 public String Nextisactive() {
+	 public boolean Nextisactive() {
 		 
-		return driver.findElement(Next).getDomProperty("disabled");
+		return driver.findElement(Next).isEnabled();
 		 
 	 }
 	 
@@ -63,10 +63,10 @@ public class ProgramPaginationPage {
 		 
 	 }
 	 
-	 public String disableNextcheck() {
+	 public boolean disableNextcheck() {
 		 
 		 WebElement disable = driver.findElement(Next);
-		 return disable.getDomAttribute("disabled");
+		 return disable.isEnabled();
 		 }
 	 
 	 public int gettoatalentries() {

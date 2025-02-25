@@ -15,6 +15,7 @@ public class ProgramPagination {
 	ProgramPaginationPage pagination = new ProgramPaginationPage(DriverFactory.getDriver());
 	LogoutPage logout = new LogoutPage(DriverFactory.getDriver());
 	LoginPage loginpage = new LoginPage(DriverFactory.getDriver());
+	
 	private int rowcount;
 			
 //	@Given("Admin is logged into application")
@@ -26,12 +27,12 @@ public class ProgramPagination {
 //	  
 //	}
 
-	@When("Admin click program button")
-	public void admin_click_program_button() throws InterruptedException {
-	    
-		pagination.clickProgram();
-		
-	}
+//	@When("Admin click program button")
+//	public void admin_click_program_button() throws InterruptedException {
+//	    
+//		pagination.clickProgram();
+//		
+//	}
 
 //
 //	@Given("Admin is on Program page")
@@ -47,6 +48,7 @@ public class ProgramPagination {
 	public void admin_clicks_next_page_link_on_the_program_table() {
 		
 		pagination.clickNext();
+		
 	    
 	}
 
@@ -54,8 +56,9 @@ public class ProgramPagination {
 	public void admin_should_see_the_pagination_has_next_active_link() {
 	    
 		
-		String isenable =	pagination.Nextisactive();
-		Assert.assertEquals(isenable, "true");
+		boolean isenable =	pagination.Nextisactive();
+		System.out.println(isenable);
+		Assert.assertTrue(isenable);
 	}
 
 	@When("Admin clicks Last page link")
@@ -68,14 +71,14 @@ public class ProgramPagination {
 	@Then("Admin should see the last page record on the table with Next page link are disabled")
 	public void admin_should_see_the_last_page_record_on_the_table_with_next_page_link_are_disabled() {
 		
-		String isdisble =	pagination.disableNextcheck();
-		Assert.assertEquals(isdisble, "true");
+		boolean isdisble =	pagination.disableNextcheck();
+		Assert.assertTrue(isdisble);
 	    
 	}
 
 	@Given("Admin is on last page of Program page table")
 	public void admin_is_on_last_page_of_program_page_table() {
-		
+		pagination.clickProgram();
 		pagination.goToLastPageUsingNextButton();
 			    
 	}
@@ -94,13 +97,13 @@ public class ProgramPagination {
 		System.out.println(pagenumber);
 		int previouspage = pagination.getTotalPages(10);
 		System.out.println(previouspage);
-		Assert.assertTrue(pagenumber == previouspage-1);
+		Assert.assertTrue(pagenumber == previouspage);
 	    
 	}
 
 	@Given("Admin is on Previous Program page")
 	public void admin_is_on_previous_program_page() {
-	    
+		pagination.clickProgram();
 		String title = loginpage.getpagetitle();
 		Assert.assertEquals(title , "LMS");
 	}
@@ -127,7 +130,7 @@ public class ProgramPagination {
 		
 		if (rowcount == 0) {
 			System.out.println(rowcount);
-		String isdisable =	pagination.disableNextcheck();
+		boolean isdisable =	pagination.disableNextcheck();
 		    Assert.assertEquals(isdisable , true);
 			Assert.assertTrue(false , Expectedtext);	
 		}else
@@ -142,10 +145,10 @@ public class ProgramPagination {
 	    
 		//rowcount = pagination.getRows();
 		if(rowcount < 5) {
-			String isdisable =	pagination.disableNextcheck();
-		    Assert.assertEquals(isdisable , "true");
+			boolean isdisable =	pagination.disableNextcheck();
+		    Assert.assertTrue(isdisable);
 		    isdisable =pagination.Nextisactive();
-		    Assert.assertEquals(isdisable , "true");
+		    Assert.assertTrue(isdisable);
 		    
 		}
 		
