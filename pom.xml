@@ -34,7 +34,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.10.2</version>
-			<scope>test</scope>
+			<!--<scope>test</scope> -->
 		</dependency>
 		<!-- Add your dependencies here -->
 		<dependency>
@@ -42,12 +42,7 @@
 			<artifactId>tess4j</artifactId>
 			<version>5.8.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator 
-<dependency>
-    <groupId>net.coobird</groupId>
-    <artifactId>thumbnailator</artifactId>
-    <version>0.4.20</version>
-</dependency-->
+		
 		<dependency>
 			<groupId>com.github.javafaker</groupId>
 			<artifactId>javafaker</artifactId>
@@ -67,12 +62,17 @@
 			<version>2.29.1</version>
 		</dependency>
 		<!--
-		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter 
+		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.14.0</version>
-		</dependency>-->
+		</dependency>
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.33</version>
+		</dependency>
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>chaintest-cucumber-jvm</artifactId>

@@ -12,8 +12,8 @@ import utilitities.ConfigReader;
               glue = { "stepDefinitions", "hooks" }, 
               plugin = {"pretty", "html:src/test/resources/cucumber-reports.html", "json:src/test/resources/cucumber-reports.json",
 		"com.aventstack.chaintest.plugins.ChainTestCucumberListener:",
-		"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm" },
-//				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" 
+		"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm" ,
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
 		monochrome = true)
 // tags = "@logout")
 
