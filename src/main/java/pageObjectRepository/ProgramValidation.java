@@ -15,14 +15,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utilitities.ConfigReader;
 
-public class ProgramPage {
+public class ProgramValidation {
 
 	WebDriver driver;
 	Properties prop;
 	WebElement editButton;
 	WebElement deleteButton;
 
-	public ProgramPage(WebDriver driver) {
+	public ProgramValidation(WebDriver driver) {
 		this.driver = driver;
 		this.prop = ConfigReader.initializeprop();
 		PageFactory.initElements(driver, this);

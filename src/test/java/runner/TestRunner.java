@@ -15,8 +15,8 @@ import utilitities.ConfigReader;
 				"com.aventstack.chaintest.plugins.ChainTestCucumberListener:",
 			"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
 //				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" 
-		monochrome = true)
-		 //tags = "@logout")
+		monochrome = true,
+		 tags = "@logout")
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 //	@BeforeTest

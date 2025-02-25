@@ -4,13 +4,12 @@ import org.openqa.selenium.WebDriver;
 
 import driverFactory.DriverFactory;
 import io.cucumber.java.en.Given;
-import pageObjectRepository.ProgramPage;
+import pageObjectRepository.ProgramValidation;
 
 public class CommonBackgroundStep {
-	
-	WebDriver driver = DriverFactory.getDriver();
-	ProgramPage ProgramPage = new ProgramPage(driver);
 
+	WebDriver driver = DriverFactory.getDriver();
+	ProgramValidation ProgramPage = new ProgramValidation(driver);
 
 	@Given("Admin is on home page after Login")
 	public void admin_is_on_home_page_after_login() {
@@ -20,6 +19,5 @@ public class CommonBackgroundStep {
 		ProgramPage.admin();
 		ProgramPage.logIn();
 
-
-}
+	}
 }

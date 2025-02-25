@@ -45,7 +45,9 @@ public class ProgramEditPage {
 	@FindBy(xpath = "//tbody[@class='p-datatable-tbody']/tr/td[3]")
 	private WebElement programDescription;
 	//@FindBy(xpath = "//input[@id='Active']/ancestor::p-radiobutton")
-	@FindBy(xpath="//*[@id='category']/div/div/input[@id='Active']")
+	//@FindBy(xpath="//*[@id='category']/div/div/input[@id='Active']")
+	@FindBy(css = "#category > div > div.p-radiobutton-box.p-highlight > span")
+
 	private WebElement activeRadioButton;
    // @FindBy(xpath = "//input[@id='Inactive']/ancestor::p-radiobutton")
 	@FindBy(xpath="//*[@id='category']/div/div/input[@id='Inactive']")
@@ -167,12 +169,25 @@ public class ProgramEditPage {
 	public void clickInActiveRadioButton() {
 		inactiveRadioButton.click();
 	}
-	public void changeStatus() {
-		if(inactiveRadioButton.isSelected()) {
-			activeRadioButton.click();
-		}else if(activeRadioButton.isSelected()){
-			inactiveRadioButton.click();
-		}
+
+	public void changeStatus(WebDriver driver) {
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    
+	    if(activeRadioButton.isSelected()) {
+	        js.executeScript("arguments[0].click();", inactiveRadioButton);
+	        System.out.println("clicked on active button");
+	    } else if(inactiveRadioButton.isSelected()){
+	        js.executeScript("arguments[0].click();", activeRadioButton);
+	        System.out.println("clciked on inactive button");
+	    }
 	}
+	
+	@FindBy(xpath="//tbody//tr[@class='ng-star-inserted'][1]//td[4]")
+	private WebElement firstrowstatus;
+	
+	public String getRowStatus() {
+		return firstrowstatus.getText();
+	}
+
 
 }

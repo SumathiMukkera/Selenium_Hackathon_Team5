@@ -1,10 +1,7 @@
 Feature: Batch functionality
 Background: Admin is on the home page after Login
-    Given User is on the login page
-    And User enters valid credentials "sdetnumpyninja@gmail.com" and "Feb@2025"
-    And User selects the Admin role
-    And User clicks on login
-
+   Given Admin is on home page after Login
+   
     Scenario: Verify Admin Navigate to Batch page successfully
     Given Admin is on the home page
     When Admin Clicks on the Batch menu from the header
