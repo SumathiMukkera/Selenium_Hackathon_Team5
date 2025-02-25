@@ -11,12 +11,12 @@ import utilitities.ConfigReader;
 
 @CucumberOptions(features = "src/test/resources/featureFiles", glue = { "stepDefinitions",
 		"hooks" }, plugin = { "pretty", "html:src/test/resources/cucumber-reports.html",
-				"json:src/test/resources/cucumber-reports.json", },
-
-//				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+				"json:src/test/resources/cucumber-reports.json", 
+				"com.aventstack.chaintest.plugins.ChainTestCucumberListener:",
+			"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
 //				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" 
-		monochrome = true)
-		 //tags = "@logout")
+		monochrome = true,
+		 tags = "@logout")
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 //	@BeforeTest
@@ -25,9 +25,9 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //		ConfigReader.setBrowserType(browser);
 //	}
 
-//	@Override
-//	@DataProvider(parallel = true)
-//	public Object[][] scenarios() {
-//		return super.scenarios();
-//	}
+	@Override
+	@DataProvider(parallel = true)
+	public Object[][] scenarios() {
+		return super.scenarios();
+	}
 }

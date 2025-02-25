@@ -19,7 +19,7 @@ import utilitities.ExcelDataReader;
 public class ProgramDeleteStep {
 
 	WebDriver driver = DriverFactory.getDriver();
-	ProgramPage ProgramPage = new ProgramPage(driver);
+	ProgramValidation ProgramPage = new ProgramValidation(driver);
 	ProgramDeletePage ProgramDeletePage = new ProgramDeletePage(driver);
 	List<String> programnames;
 	
