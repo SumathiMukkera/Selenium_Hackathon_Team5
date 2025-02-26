@@ -109,19 +109,7 @@ public class ProgramAddNewStep {
 	}
 
 
-//	@When("Admin searches with newly created {string}")
-//	public void admin_searches_with_newly_created_program(String programName) {
-//		
-//		generatedName = faker.name().firstName();
-//		ProgramAddNewPage.enterName(generatedName);
-//		generatedDescription = faker.lorem().sentence();
-//		ProgramAddNewPage.enterDescription(generatedDescription);
-//		ProgramAddNewPage.clickActiveRadioButton();
-//		ProgramAddNewPage.popUpSaveButton();
-//
-//		ProgramAddNewPage.searchProgram(programName);
-//
-//	}
+
 	@When("Admin searches with newly created programName")
 	public void admin_searches_with_newly_created_program() {
 		
