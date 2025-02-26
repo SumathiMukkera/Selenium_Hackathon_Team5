@@ -18,10 +18,10 @@ public class ExcelforFeature {
         String excelpath = "C:\\SahanaNUMPYNINJASDET\\workspace\\Team5BugDetectors\\SeleniumHackathon_Feb25\\src\\test\\resources\\testData\\LMScenarios.xlsx";
         String featurefiledirectory = System.getProperty("user.dir") + "\\src\\test\\resources\\featureFiles";
 
-        // Ensure the directory exists
+      
         File directory = new File(featurefiledirectory);
         if (!directory.exists()) {
-            directory.mkdirs();  // Create directory if it doesn't exist
+            directory.mkdirs();  
         }
 
         FileInputStream fis = new FileInputStream(excelpath);
